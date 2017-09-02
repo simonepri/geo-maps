@@ -1,0 +1,52 @@
+{
+  "name": "world-country",
+  "version": "1.0.0",
+  "description": "Get ISO 3166-1 alpha-3 country code for geographic coordinates.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "codecov": "^2.2.0",
+    "nyc": "^11.0.3",
+    "pify": "^3.0.0",
+    "xo": "*"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava --verbose",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/busrapidohq/world-country.git"
+  },
+  "author": {
+    "name": "Simone Primarosa",
+    "email": "simone.pri@hotmail.it"
+  },
+  "keywords": [
+    "country",
+    "countries",
+    "get",
+    "alpha-3",
+    "alpha-2",
+    "country code",
+    "3166",
+    "ISO",
+    "world",
+    "administration",
+    "area",
+    "political",
+    "boundaries"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/busrapidohq/world-country/issues"
+  },
+  "homepage": "https://github.com/busrapidohq/world-country#readme",
+  "xo": {
+    "space": true
+  }
+}
