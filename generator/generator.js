@@ -33,7 +33,7 @@ function postGeoJson(osmid, params) {
         pify(request.post)(opts)
           .then(response => {
             if (response && response.body && response.body.indexOf('Exception') !== -1) {
-              reject(new Error(response));
+              reject(new Error('Exception while processing ' + osmid + '\n' + JSON.stringify(response)));
               return;
             }
             resolve();
@@ -71,7 +71,11 @@ function getGeoJson(osmid, params) {
         return pify(request)(opts);
       })
       .then(response => {
-        if (!response || !response.body || response.statusCode !== 200) {
+        if (!response || !response.body) {
+          reject(new Error('Unable to get response for ' + osmid));
+          return;
+        }
+        if (response.statusCode !== 200) {
           getGeoJson(osmid, params)
             .then(resolve)
             .catch(reject);
