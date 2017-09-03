@@ -63,13 +63,40 @@ function countPoints(geojson) {
   return count;
 }
 
-Object.keys(configs).forEach(size => {
-  const uri = path.join(BASE_DIR, size, 'world.geo.json');
-  console.log('Generating %s world', size);
-  generator(configs[size])
-    .then(world => {
-      console.log('%s world generated with %d points', size, countPoints(world));
-      return pify(fs.writeFile)(uri, JSON.stringify(world));
-    })
-    .catch(err => console.log(err));
-});
+function saveGeo() {
+  const plist = [];
+  Object.keys(configs).forEach(size => {
+    const uri = path.join(BASE_DIR, size, 'world.geo.json');
+    console.log('Generating %s world', size);
+    plist.push(
+      generator.exportWorld(configs[size])
+        .then(world => {
+          console.log('%s world generated with %d points', size, countPoints(world));
+          return pify(fs.writeFile)(uri, JSON.stringify(world));
+        })
+    );
+  });
+  return Promise.all(plist);
+}
+
+function saveDiffs() {
+  const plist = [];
+  Object.keys(configs).forEach(size => {
+    console.log('Generating %s world differences', size);
+    plist.push(
+      generator.exportDiff(configs[size])
+        .then(world => {
+          const promises = [];
+          console.log('%s world differences generated', size);
+          world.forEach(country => {
+            const uri = path.join(BASE_DIR, size, 'diffs', country.name + '.png');
+            promises.push(pify(fs.writeFile)(uri, country.data));
+          });
+          return Promise.all(promises);
+        })
+      );
+  });
+  return Promise.all(plist);
+}
+
+saveGeo().then(() => saveDiffs()).catch(err => console.log(err));
