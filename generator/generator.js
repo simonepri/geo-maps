@@ -3,6 +3,8 @@ const pify = require('pify');
 const wait = require('wait-then');
 const rand = require('random-int');
 
+const ProgressBar = require('ascii-progress');
+
 const countries = require('./osm-countries.json');
 
 let last = Date.now();
@@ -36,20 +38,16 @@ function postGeoJson(osmid, params) {
             }
             resolve();
           })
-          .catch(err => {
-            if (err.code === 'ETIMEDOUT' || err.code === 'ENOTFOUND' || err.code === 'ECONNRESET') {
-              postGeoJson(osmid, params)
-                .then(resolve)
-                .catch(reject);
-              return;
-            }
-            reject(err);
+          .catch(() => {
+            postGeoJson(osmid, params)
+              .then(resolve)
+              .catch(reject);
           });
       });
   });
 }
 
-function getGeoJson(osmid, params, type) {
+function getGeoJson(osmid, params) {
   const API_GET_GEO = 'http://polygons.openstreetmap.fr/get_geojson.py?id=<id>&params=<ps>';
 
   let osmpar = '0';
@@ -74,13 +72,13 @@ function getGeoJson(osmid, params, type) {
       })
       .then(response => {
         if (!response || !response.body || response.statusCode !== 200) {
-          getGeoJson(osmid, params, type)
+          getGeoJson(osmid, params)
             .then(resolve)
             .catch(reject);
           return;
         }
         if (response.body.substr(0, 4) === 'None') {
-          postGeoJson(osmid, params).then(() => getGeoJson(osmid, params, type))
+          postGeoJson(osmid, params).then(() => getGeoJson(osmid, params))
             .then(resolve)
             .catch(reject);
           return;
@@ -89,17 +87,15 @@ function getGeoJson(osmid, params, type) {
           const geojson = JSON.parse(response.body);
           resolve(geojson);
         } catch (err) {
-          reject(new Error(JSON.stringify(response)));
-        }
-      })
-      .catch(err => {
-        if (err.code === 'ETIMEDOUT' || err.code === 'ENOTFOUND' || err.code === 'ECONNRESET') {
-          getGeoJson(osmid, params, type)
+          getGeoJson(osmid, params)
             .then(resolve)
             .catch(reject);
-          return;
         }
-        reject(err);
+      })
+      .catch(() => {
+        getGeoJson(osmid, params)
+          .then(resolve)
+          .catch(reject);
       });
   });
 }
@@ -161,20 +157,25 @@ function getImageDiff(osmid, params) {
  *   Equation: ST_Simplify(ST_SnapToGrid(ST_Buffer(geom, X), Y), Z))
  * @return {object}  GeoJSON object
  */
-function exportWorld(params) {
+function exportWorld(name, params) {
   const world = {type: 'FeatureCollection', features: []};
   const promises = [];
   const len = Object.keys(countries).length;
-  const stats = {req: 0, res: 0};
+  const req = new ProgressBar({
+    schema: 'EWS-' + name + ' [:bar] :current/:total :percent :elapseds :etas', total: len
+  });
+  const res = new ProgressBar({
+    schema: 'EWE-' + name + ' [:bar] :current/:total :percent :elapseds :etas', total: len
+  });
 
   Object.keys(countries).forEach(key => {
     const osmid = countries[key];
     promises.push(
       new Promise((resolve, reject) => {
-        console.log('Requested %s (%d/%d)', key, ++stats.req, len);
+        req.tick();
         getGeoJson(osmid, params)
           .then(geoJson => {
-            console.log('Generated %s (%d/%d)', key, ++stats.res, len);
+            res.tick();
             world.features.push({
               type: 'Feature',
               properties: {ISO_A3: key},
@@ -200,20 +201,25 @@ function exportWorld(params) {
  *   Equation: ST_Simplify(ST_SnapToGrid(ST_Buffer(geom, X), Y), Z))
  * @return {array}  Array of images.
  */
-function exportDiff(params) {
+function exportDiff(name, params) {
   const world = [];
   const promises = [];
   const len = Object.keys(countries).length;
-  const stats = {req: 0, res: 0};
+  const req = new ProgressBar({
+    schema: 'EWS-' + name + ' [:bar] :current/:total :percent :elapseds :etas', total: len
+  });
+  const res = new ProgressBar({
+    schema: 'EWE-' + name + ' [:bar] :current/:total :percent :elapseds :etas', total: len
+  });
 
   Object.keys(countries).forEach(key => {
     const osmid = countries[key];
     promises.push(
       new Promise((resolve, reject) => {
-        console.log('Requested %s (%d/%d)', key, ++stats.req, len);
+        req.tick();
         getImageDiff(osmid, params)
           .then(png => {
-            console.log('Generated %s (%d/%d)', key, ++stats.res, len);
+            res.tick();
             world.push({name: key, data: png});
             resolve();
           })

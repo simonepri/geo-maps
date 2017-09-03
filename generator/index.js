@@ -65,11 +65,12 @@ function countPoints(geojson) {
 
 function saveGeo() {
   const plist = [];
+  Object.keys(configs).forEach(size => console.log('Generating %s world', size));
+
   Object.keys(configs).forEach(size => {
     const uri = path.join(BASE_DIR, size, 'world.geo.json');
-    console.log('Generating %s world', size);
     plist.push(
-      generator.exportWorld(configs[size])
+      generator.exportWorld(size, configs[size])
         .then(world => {
           console.log('%s world generated with %d points', size, countPoints(world));
           return pify(fs.writeFile)(uri, JSON.stringify(world));
@@ -81,15 +82,17 @@ function saveGeo() {
 
 function saveDiffs() {
   const plist = [];
+  Object.keys(configs).forEach(size => console.log('Generating %s world differences', size));
+
   Object.keys(configs).forEach(size => {
-    console.log('Generating %s world differences', size);
+    const base = path.join(BASE_DIR, size, 'diffs');
     plist.push(
-      generator.exportDiff(configs[size])
+      generator.exportDiff(size, configs[size])
         .then(world => {
           const promises = [];
           console.log('%s world differences generated', size);
           world.forEach(country => {
-            const uri = path.join(BASE_DIR, size, 'diffs', country.name + '.png');
+            const uri = path.join(base, country.name + '.png');
             promises.push(pify(fs.writeFile)(uri, country.data));
           });
           return Promise.all(promises);
