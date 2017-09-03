@@ -1,14 +1,22 @@
 {
-  "name": "world-country",
+  "name": "world-countries-boundaries",
   "version": "1.0.0",
-  "description": "Get ISO 3166-1 alpha-3 country code for geographic coordinates.",
+  "description": "Political boundaries of the entire world.",
   "main": "index.js",
+  "private": true,
   "dependencies": {},
   "devDependencies": {
+    "ascii-progress": "^1.0.5",
     "ava": "*",
     "codecov": "^2.2.0",
+    "fs-extra": "^4.0.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "mapshaper": "^0.4.49",
     "nyc": "^11.0.3",
     "pify": "^3.0.0",
+    "random-int": "^1.0.0",
+    "request": "^2.81.0",
+    "wait-then": "^0.1.2",
     "xo": "*"
   },
   "engines": {
@@ -16,11 +24,13 @@
   },
   "scripts": {
     "test": "xo && nyc ava --verbose",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov"
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov",
+    "save": "gulp save --max_old_space_size=4096",
+    "compress": "gulp compress --max_old_space_size=4096"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/busrapidohq/world-country.git"
+    "url": "git+https://github.com/busrapidohq/world-countries-boundaries.git"
   },
   "author": {
     "name": "Simone Primarosa",
@@ -35,6 +45,9 @@
     "country code",
     "3166",
     "ISO",
+    "maritime",
+    "sea",
+    "earth",
     "world",
     "administration",
     "area",
@@ -43,9 +56,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/busrapidohq/world-country/issues"
+    "url": "https://github.com/busrapidohq/world-countries-boundaries/issues"
   },
-  "homepage": "https://github.com/busrapidohq/world-country#readme",
+  "homepage": "https://github.com/busrapidohq/world-countries-boundaries#readme",
   "xo": {
     "space": true
   }
