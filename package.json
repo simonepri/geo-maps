@@ -9,6 +9,9 @@
     "codecov": "^2.2.0",
     "nyc": "^11.0.3",
     "pify": "^3.0.0",
+    "random-int": "^1.0.0",
+    "request": "^2.81.0",
+    "wait-then": "^0.1.2",
     "xo": "*"
   },
   "engines": {
