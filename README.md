@@ -1,11 +1,11 @@
-# world-country
-[![Travis CI](https://travis-ci.org/busrapidohq/world-country.svg?branch=master)](https://travis-ci.org/busrapidohq/world-country) [![Codecov](https://img.shields.io/codecov/c/github/busrapidohq/world-country/master.svg)](https://codecov.io/gh/busrapidohq/world-country) [![npm](https://img.shields.io/npm/dm/world-country.svg)](https://www.npmjs.com/package/world-country) [![npm version](https://img.shields.io/npm/v/world-country.svg)](https://www.npmjs.com/package/world-country) [![npm dependencies](https://david-dm.org/busrapidohq/world-country.svg)](https://david-dm.org/busrapidohq/world-country) [![npm dev dependencies](https://david-dm.org/busrapidohq/world-country/dev-status.svg)](https://david-dm.org/busrapidohq/world-country#info=devDependencies)
-> 🗺 Get ISO 3166-1 alpha-3 country code for geographic coordinates.
+# world-countries
+[![Travis CI](https://travis-ci.org/busrapidohq/world-countries.svg?branch=master)](https://travis-ci.org/busrapidohq/world-countries) [![Codecov](https://img.shields.io/codecov/c/github/busrapidohq/world-countries/master.svg)](https://codecov.io/gh/busrapidohq/world-countries) [![npm](https://img.shields.io/npm/dm/world-countries.svg)](https://www.npmjs.com/package/world-countries) [![npm version](https://img.shields.io/npm/v/world-countries.svg)](https://www.npmjs.com/package/world-countries) [![npm dependencies](https://david-dm.org/busrapidohq/world-countries.svg)](https://david-dm.org/busrapidohq/world-countries) [![npm dev dependencies](https://david-dm.org/busrapidohq/world-countries/dev-status.svg)](https://david-dm.org/busrapidohq/world-countries#info=devDependencies)
+> 🌎 Political boundaries of the entire world.
 
 ## Install
 
 ```
-$ npm install --save world-country
+$ npm install --save world-countries
 ```
 
 ## Usage
@@ -15,10 +15,9 @@ Coming soon
 Coming soon
 
 ## Authors
-* **Matteo Chen** - [chq-matteo](https://github.com/chq-matteo)
 * **Simone Primarosa** - [simonepri](https://github.com/simonepri)
 
-See also the list of [contributors](https://github.com/busrapidohq/world-country/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/busrapidohq/world-countries/contributors) who participated in this project.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

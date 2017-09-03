@@ -1,7 +1,7 @@
 {
-  "name": "world-country",
+  "name": "world-countries",
   "version": "1.0.0",
-  "description": "Get ISO 3166-1 alpha-3 country code for geographic coordinates.",
+  "description": "Political boundaries of the entire world.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/busrapidohq/world-country.git"
+    "url": "git+https://github.com/busrapidohq/world-countries.git"
   },
   "author": {
     "name": "Simone Primarosa",
@@ -38,6 +38,9 @@
     "country code",
     "3166",
     "ISO",
+    "maritime",
+    "sea",
+    "earth",
     "world",
     "administration",
     "area",
@@ -46,9 +49,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/busrapidohq/world-country/issues"
+    "url": "https://github.com/busrapidohq/world-countries/issues"
   },
-  "homepage": "https://github.com/busrapidohq/world-country#readme",
+  "homepage": "https://github.com/busrapidohq/world-countries#readme",
   "xo": {
     "space": true
   }
