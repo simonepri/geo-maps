@@ -20,7 +20,8 @@
   },
   "scripts": {
     "test": "xo && nyc ava --verbose",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov"
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov",
+    "generate": "node ./generate"
   },
   "repository": {
     "type": "git",
