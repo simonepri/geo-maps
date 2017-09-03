@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "ascii-progress": "^1.0.5",
     "ava": "*",
     "codecov": "^2.2.0",
     "lodash": "^4.17.4",
