@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "Political boundaries of the entire world.",
   "main": "index.js",
+  "private": true,
   "dependencies": {},
   "devDependencies": {
     "ascii-progress": "^1.0.5",
     "ava": "*",
     "codecov": "^2.2.0",
+    "fs-extra": "^4.0.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "mapshaper": "^0.4.49",
     "nyc": "^11.0.3",
     "pify": "^3.0.0",
     "random-int": "^1.0.0",
@@ -21,7 +25,8 @@
   "scripts": {
     "test": "xo && nyc ava --verbose",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov",
-    "generate": "node ./generate"
+    "save": "gulp save --max_old_space_size=4096",
+    "compress": "gulp compress --max_old_space_size=4096"
   },
   "repository": {
     "type": "git",
