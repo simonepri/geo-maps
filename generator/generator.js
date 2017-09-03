@@ -2,6 +2,7 @@ const request = require('request');
 const pify = require('pify');
 const wait = require('wait-then');
 const rand = require('random-int');
+const _ = require('lodash');
 
 const countries = require('./osm-countries.json');
 
@@ -9,6 +10,16 @@ let last = Date.now();
 
 function postGeoJson(osmid, params) {
   const API_POST_GEO = 'http://polygons.openstreetmap.fr/?id=<id>';
+
+  const opts = {
+    headers: {
+      origins: 'http://polygons.openstreetmap.fr',
+      referer: 'http://polygons.openstreetmap.fr?id=' + osmid
+    },
+    url: API_POST_GEO.replace('<id>', osmid),
+    form: _.extend(params, {generate: 'Submit'})
+  };
+
   let delta = 1500 - (Date.now() - last) + rand(1500);
   if (delta < 0) {
     delta = 0;
@@ -18,32 +29,46 @@ function postGeoJson(osmid, params) {
     wait(delta)
       .then(() => {
         last = Date.now();
-        return pify(request.post)({url: API_POST_GEO.replace('<id>', osmid), form: params});
+        return pify(request.post)(opts);
       })
       .then(resolve)
-      .catch(reject);
+      .catch(err => {
+        if (err.code === 'ETIMEDOUT' || err.code === 'ENOTFOUND' || err.code === 'ECONNRESET') {
+          postGeoJson(osmid, params)
+            .then(resolve)
+            .catch(reject);
+          return;
+        }
+        reject(err);
+      });
   });
 }
 
 function getGeoJson(osmid, params) {
   const API_GET_GEO = 'http://polygons.openstreetmap.fr/get_geojson.py?id=<id>&params=<ps>';
-  let delta = 100 - (Date.now() - last) + rand(100);
-  if (delta < 0) {
-    delta = 0;
-  }
 
   let osmpar = '0';
   if (params && params.x && params.y && params.z) {
     osmpar = [params.x, params.y, params.z].join('-').toString();
   }
+
+  const opts = {
+    url: API_GET_GEO.replace('<id>', osmid).replace('<ps>', osmpar)
+  };
+
+  let delta = 1000 - (Date.now() - last) + rand(1000);
+  if (delta < 0) {
+    delta = 0;
+  }
+
   return new Promise((resolve, reject) => {
     wait(delta)
       .then(() => {
         last = Date.now();
-        return pify(request)(API_GET_GEO.replace('<id>', osmid).replace('<ps>', osmpar));
+        return pify(request)(opts);
       })
       .then(response => {
-        if (response && response.statusCode === 504) {
+        if (response && response.statusCode !== 200) {
           getGeoJson(osmid, params)
             .then(resolve)
             .catch(reject);
@@ -62,7 +87,15 @@ function getGeoJson(osmid, params) {
           reject(new Error(JSON.stringify(response)));
         }
       })
-      .catch(reject);
+      .catch(err => {
+        if (err.code === 'ETIMEDOUT' || err.code === 'ENOTFOUND' || err.code === 'ECONNRESET') {
+          getGeoJson(osmid, params)
+            .then(resolve)
+            .catch(reject);
+          return;
+        }
+        reject(err);
+      });
   });
 }
 
