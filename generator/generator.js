@@ -153,6 +153,7 @@ function getImageDiff(osmid, params) {
 
 /**
  * Generates a GeoJSON object of world countries' boundaries.
+ * @param {string}  name Name shown near the progress bar
  * @param  {object} params Parameters for the postgis equation.
  *   Equation: ST_Simplify(ST_SnapToGrid(ST_Buffer(geom, X), Y), Z))
  * @return {object}  GeoJSON object
@@ -173,7 +174,7 @@ function exportWorld(name, params) {
     promises.push(
       new Promise((resolve, reject) => {
         req.tick();
-        getGeoJson(osmid, params)
+        getGeoJson(osmid, params[key] || params.default)
           .then(geoJson => {
             res.tick();
             world.features.push({
@@ -197,6 +198,7 @@ function exportWorld(name, params) {
 /**
  * Generates an array of PNG images with countries' boundaries simplification
  * error.
+ * @param {string}  name Name shown near the progress bar
  * @param  {object} params Parameters for the postgis equation.
  *   Equation: ST_Simplify(ST_SnapToGrid(ST_Buffer(geom, X), Y), Z))
  * @return {array}  Array of images.
@@ -217,7 +219,7 @@ function exportDiff(name, params) {
     promises.push(
       new Promise((resolve, reject) => {
         req.tick();
-        getImageDiff(osmid, params)
+        getImageDiff(osmid, params[key] || params.default)
           .then(png => {
             res.tick();
             world.push({name: key, data: png});
