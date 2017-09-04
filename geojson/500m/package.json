@@ -1,6 +1,6 @@
 {
   "name": "world-countries-boundaries-500m",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Political boundaries of the entire world with 500m precision.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,29 @@
   "bugs": {
     "url": "https://github.com/busrapidohq/world-countries-boundaries/issues"
   },
-  "homepage": "https://github.com/busrapidohq/world-countries-boundaries#readme"
+  "homepage": "https://github.com/busrapidohq/world-countries-boundaries#readme",
+  "keywords": [
+    "world",
+    "earth",
+    "map",
+    "maps",
+    "political",
+    "maritime",
+    "boundaries",
+    "boundary",
+    "bounds",
+    "bound",
+    "confine",
+    "confines",
+    "coordinate",
+    "coordinates",
+    "country",
+    "countries",
+    "which",
+    "alpha-3",
+    "ISO 3166-1",
+    "OSM",
+    "OpenStreetMap",
+    "geojson"
+  ]
 }
