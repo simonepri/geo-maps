@@ -1,0 +1,22 @@
+{
+  "name": "world-countries-boundaries-10km",
+  "version": "1.0.0",
+  "description": "Political boundaries of the entire world with 10km precision.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/busrapidohq/world-countries-boundaries.git"
+  },
+  "author": {
+    "name": "Simone Primarosa",
+    "email": "simone.pri@hotmail.it"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/busrapidohq/world-countries-boundaries/issues"
+  },
+  "homepage": "https://github.com/busrapidohq/world-countries-boundaries#readme"
+}
