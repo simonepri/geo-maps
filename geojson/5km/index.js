@@ -1,3 +1,1 @@
-const world = require('./world.geo.json');
-
-module.exports = () => world;
+module.exports = () => require('./world.geo.json');

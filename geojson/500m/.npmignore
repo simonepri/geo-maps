@@ -1,0 +1,6 @@
+#npm
+.npmignore
+package-lock.json
+npm-shrinkwrap.json
+
+CODE_OF_CONDUCT.md
