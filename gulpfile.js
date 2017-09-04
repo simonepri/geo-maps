@@ -29,20 +29,27 @@ gulp.task('save', async () => {
  */
 gulp.task('compress', async () => {
   const worldPath = path.join(GEO_DIR, 'orig', 'world.geo.json');
-  const sizes = [
-    '1', '2', '5',
-    '10', '25', '50',
-    '100', '250', '500',
-    '1000', '2500', '5000',
-    '10000', '25000', '50000',
-    '100000', '250000', '500000'
-  ];
-  const bar = new ProgressBar({total: sizes.length});
+  const sizes = {
+    '1m': '1',
+    '2m5': '2.5',
+    '5m': '5',
+    '10m': '10',
+    '25m': '25',
+    '50m': '50',
+    '100m': '100',
+    '250m': '250',
+    '500m': '500',
+    '1km': '1000',
+    '2km5': '2500',
+    '5km': '5000',
+    '10km': '10000'
+  };
+  const bar = new ProgressBar({total: Object.keys(sizes).length});
 
-  for (const size of sizes) {
-    const saveDir = path.join(GEO_DIR, size + 'm');
+  for (const size of Object.keys(sizes)) {
+    const saveDir = path.join(GEO_DIR, size);
     const savePath = path.join(saveDir, 'world.geo.json');
-    const cmd = '-i ' + worldPath + ' -simplify keep-shapes interval=' + size + ' -o format=geojson ' + savePath;
+    const cmd = '-i ' + worldPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -o format=geojson ' + savePath;
     // eslint-disable-next-line no-await-in-loop
     await fs.ensureDir(saveDir);
     // eslint-disable-next-line no-await-in-loop
