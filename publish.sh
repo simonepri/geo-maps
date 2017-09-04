@@ -3,7 +3,8 @@ cd geojson
 for file in *; do
   cd $file
   if [ $file != 'orig' ]; then
-    npm publish
+    npm publish &
   fi
   cd ..
 done
+wait
