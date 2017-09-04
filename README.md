@@ -1,6 +1,8 @@
 # world-countries-boundaries
 > 🌎 Political boundaries of the entire world.
 
+[![World Boundaries](https://user-images.githubusercontent.com/3505087/30029694-87f7f35a-918a-11e7-9eb1-12ac1ce1d76b.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/busrapidohq/world-countries-boundaries/master/geojson/10km/world.geo.json)
+
 ## Maps available
 * [world-countries-boundaries-1m](geojson/1m)
 * [world-countries-boundaries-2m5](geojson/2m5)
