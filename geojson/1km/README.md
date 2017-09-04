@@ -11,7 +11,6 @@ $ npm install --save world-countries-boundaries-1km
 
 > This package is though to be used in conjunction with [country-codes](https://github.com/busrapidohq/country-codes)
 
-
 ## Authors
 * **Simone Primarosa** - [simonepri](https://github.com/simonepri)
 
