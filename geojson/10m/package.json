@@ -1,6 +1,6 @@
 {
   "name": "world-countries-boundaries-10m",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Political boundaries of the entire world with 10m precision.",
   "main": "index.js",
   "scripts": {
