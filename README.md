@@ -40,8 +40,7 @@ in the original map extracted from OSM and the ones we produce.
 
 <hr></hr>
 
-### World maritime political boundaries
-
+<h3 align="center">World maritime political boundaries</h3>
 #### Extraction method
 - For each country in  [osm-countries.json](https://github.com/simonepri/world-countries-boundaries/blob/master/utils/osm-countries.json) fetch its GeoJSON using [this](http://polygons.openstreetmap.fr/) OpenStreetMap API.  
 - Collect all countries in a single GeoJSON.
@@ -67,7 +66,7 @@ Name | Precision | Size
 
 <hr></hr>
 
-### World coastline political boundaries
+<h3 align="center">World coastline political boundaries</h3>
 I have planned to do this in the future if these maps will get enough interest
 from the community. Please comment or react on this [issue](https://github.com/simonepri/world-countries-boundaries/issues/3) if you
 are interested.
