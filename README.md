@@ -1,10 +1,12 @@
 <h1 align="center">
-  <a href="https://github.com/simonepri/geo-countries"><img src="https://github.com/simonepri/world-countries-boundaries/blob/master/media/geo-countries.jpg?raw=true" alt="geo-countries" /></a>
+  <a href="https://github.com/simonepri/world-countries-boundaries"><img src="https://github.com/simonepri/world-countries-boundaries/blob/master/media/geo-countries.jpg?raw=true" alt="geo-countries" /></a>
 </h1>
 <div align="center">
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/format-GeoJSON-e67e22.svg" alt="maps format" /></a>
   <a href="http://www.openstreetmap.org/"><img src="https://img.shields.io/badge/source-OSM-2ecc71.svg" alt="maps source" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/simonepri/world-countries-boundaries.svg" alt="license" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/simonepri/world-countries-boundaries.svg" alt="software license" /></a>
+  <a href="http://www.openstreetmap.org/"><img src="https://img.shields.io/badge/source-OSM-2ecc71.svg" alt="maps source" /></a>
+  <a href="https://opendatacommons.org/licenses/odbl/1.0/"><img src="https://img.shields.io/badge/license-ODbL-2980b9.svg" alt="data license" /></a>
 </div>
 <br />
 <div align="center">
@@ -74,6 +76,6 @@ databases trying to intersect the one obtained from OSM with the others.
 See also the list of [contributors](https://github.com/simonepri/world-countries-boundaries/contributors) who participated in this project.
 
 ## License
-All data of this project is licensed under the [Open Data Commons Public Domain Dedication and License](https://opendatacommons.org/licenses/pddl/1.0/) as stated in [OpenStreetMap License](http://www.openstreetmap.org/copyright)
+All data of this project is licensed under the [Open Data Commons Public Domain Dedication and License](https://opendatacommons.org/licenses/odbl/1.0/) as stated in [OpenStreetMap License](http://www.openstreetmap.org/copyright)
 
 All source code of this project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
