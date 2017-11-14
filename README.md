@@ -30,7 +30,7 @@ speed reasons). You can find more maps below.
 The purpose of this project is to **progammatically** extract maps from open
 databases like [OpenStreetMap](www.openstreetmap.org) and then providing you
 with a ready to use GeoJSON map that fits your needs.  
-Feel free to propose new kind of maps!
+Feel free to propose new kind of maps! 🎉
 
 ## Maps
 Below you can find different kind of maps divided by type and exported in
