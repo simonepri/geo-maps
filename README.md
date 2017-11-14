@@ -38,7 +38,10 @@ different precisions.
 Please note that for precision we mean the absolute error between the polygons
 in the original map extracted from OSM and the ones we produce.
 
+<hr></hr>
+
 ### World maritime political boundaries
+
 #### Extraction method
 - For each country in  [osm-countries.json](https://github.com/simonepri/world-countries-boundaries/blob/master/utils/osm-countries.json) fetch its GeoJSON using [this](http://polygons.openstreetmap.fr/) OpenStreetMap API.  
 - Collect all countries in a single GeoJSON.
@@ -62,10 +65,14 @@ Name | Precision | Size
 [@geo-cointries/world-maritime-5km](geojson/5km) | 5000 meters resolution | ~1 MB
 [@geo-cointries/world-maritime-10km](geojson/10km) | 10000 meters resolution | ~0.5 MB
 
+<hr></hr>
+
 ### World coastline political boundaries
 I have planned to do this in the future if these maps will get enough interest
 from the community. Please comment or react on this [issue](https://github.com/simonepri/world-countries-boundaries/issues/3) if you
 are interested.
+
+<hr></hr>
 
 ## Authors
 * **Simone Primarosa** - [simonepri](https://github.com/simonepri)
