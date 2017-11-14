@@ -4,7 +4,7 @@
 <div align="center">
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/format-GeoJSON-e67e22.svg" alt="maps format" /></a>
   <a href="http://www.openstreetmap.org/"><img src="https://img.shields.io/badge/source-OSM-2ecc71.svg" alt="maps source" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/simonepri/geo-countries.svg" alt="license" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/simonepri/world-countries-boundaries.svg" alt="license" /></a>
 </div>
 <br />
 <div align="center">
