@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/simonepri/geo-countries"><img src="https://github.com/simonepri/world-countries-boundaries/media/geo-countries.png" alt="geo-countries" /></a>
+  <a href="https://github.com/simonepri/geo-countries"><img src="https://github.com/simonepri/tree/master/world-countries-boundaries/media/geo-countries.png?raw=true" alt="geo-countries" /></a>
 </h1>
 <div align="center">
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/format-GeoJSON-e67e22.svg" alt="maps format" /></a>
@@ -21,7 +21,7 @@ You can see an example of map generated with this project clicking on the image
 below.  
 Please note that this example show you the worst resolution available (for
 speed purposes). You can find more precise maps previews below.
-[![World Boundaries](https://github.com/simonepri/world-countries-boundaries/media/geo-countries-map.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/world-countries-boundaries/master/geojson/10km/world.geo.json)
+[![World Boundaries](https://github.com/simonepri/world-countries-boundaries/tree/master/media/geo-countries-map.png?raw=true)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/world-countries-boundaries/master/geojson/10km/world.geo.json)
 
 ## Background
 The purpose of this project is to **progammatically** extract maps from open
