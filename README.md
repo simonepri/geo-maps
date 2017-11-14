@@ -70,8 +70,9 @@ Name | Precision | Size
 <h3 align="center">World coastline political boundaries</h3>
 
 I have planned to do this in the future if these maps will get enough interest
-from the community. Please comment or react on this [issue](https://github.com/simonepri/world-countries-boundaries/issues/3) if you
-are interested.
+from the community.  
+Please comment or react on this [issue](https://github.com/simonepri/world-countries-boundaries/issues/3)
+if you are interested.
 
 <hr></hr>
 
