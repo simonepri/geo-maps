@@ -36,24 +36,6 @@
     "name": "Simone Primarosa",
     "email": "simone.pri@hotmail.it"
   },
-  "keywords": [
-    "country",
-    "countries",
-    "get",
-    "alpha-3",
-    "alpha-2",
-    "country code",
-    "3166",
-    "ISO",
-    "maritime",
-    "sea",
-    "earth",
-    "world",
-    "administration",
-    "area",
-    "political",
-    "boundaries"
-  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/busrapidohq/world-countries-boundaries/issues"
