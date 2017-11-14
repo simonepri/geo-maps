@@ -25,6 +25,7 @@ speed purposes).
 You can find more maps previews below.
 [![World Boundaries](https://raw.githubusercontent.com/simonepri/world-countries-boundaries/master/media/geo-countries-map.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/world-countries-boundaries/master/geojson/10km/world.geo.json)
 
+
 ## Background
 The purpose of this project is to **progammatically** extract maps from open
 databases like [OpenStreetMap](www.openstreetmap.org) and then providing you
