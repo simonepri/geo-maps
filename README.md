@@ -42,7 +42,7 @@ in the original map extracted from OSM and the ones we produce.
 #### Extraction method
 - For each country in  [osm-countries.json](https://github.com/simonepri/world-countries-boundaries/blob/master/utils/osm-countries.json) fetch its GeoJSON using [this](http://polygons.openstreetmap.fr/) OpenStreetMap API.  
 - Collect all countries in a single GeoJSON.
-- For each resolution apply the Visvalingam algorithm on the map using [mapshaper](https://github.com/mbloch/mapshaper).
+- For each resolution apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify/) on the map using [mapshaper](https://github.com/mbloch/mapshaper).
 - Export all generated maps to their respective folders.
 
 #### Results
