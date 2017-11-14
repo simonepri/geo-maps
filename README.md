@@ -21,7 +21,8 @@
 You can see an example of map generated with this project clicking on the image
 below.  
 Please note that this example show you the worst resolution available (for
-speed purposes). You can find more precise maps previews below.
+speed purposes).  
+You can find more maps previews below.
 [![World Boundaries](https://raw.githubusercontent.com/simonepri/world-countries-boundaries/master/media/geo-countries-map.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/world-countries-boundaries/master/geojson/10km/world.geo.json)
 
 ## Background
