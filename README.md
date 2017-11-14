@@ -17,7 +17,7 @@ Name | Precision
 [world-countries-boundaries-500m](geojson/500m) | 500 meters resolution
 [world-countries-boundaries-1km](geojson/1km) | 1000 meters resolution
 [world-countries-boundaries-2km5](geojson/2km5) | 2500 meters resolution
-[world-countries-boundaries-5km](geojson/km) | 5000 meters resolution
+[world-countries-boundaries-5km](geojson/5km) | 5000 meters resolution
 [world-countries-boundaries-10km](geojson/10km) | 10000 meters resolution
 
 ## Authors
