@@ -22,10 +22,12 @@
   "keywords": [
     "world",
     "earth",
+    "sea",
     "map",
     "maps",
     "political",
     "maritime",
+    "coastline",
     "boundaries",
     "boundary",
     "bounds",
@@ -35,12 +37,18 @@
     "coordinate",
     "coordinates",
     "country",
+    "get",
+    "code",
     "countries",
+    "administration",
+    "area",
     "which",
     "alpha-3",
     "ISO 3166-1",
     "OSM",
+    "geo",
+    "GeoJSON",
     "OpenStreetMap",
-    "geojson"
+    "NaturalEarth"
   ]
 }
