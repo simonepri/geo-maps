@@ -7,15 +7,12 @@
   "dependencies": {},
   "devDependencies": {
     "ascii-progress": "^1.0.5",
-    "ava": "*",
-    "codecov": "^2.2.0",
-    "fs-extra": "^4.0.1",
+    "fs-extra": "^4.0.2",
     "gulp": "github:gulpjs/gulp#4.0",
-    "mapshaper": "^0.4.49",
-    "nyc": "^11.0.3",
+    "mapshaper": "^0.4.57",
     "pify": "^3.0.0",
     "random-int": "^1.0.0",
-    "request": "^2.81.0",
+    "request": "^2.83.0",
     "wait-then": "^0.1.2",
     "xo": "*"
   },
@@ -23,8 +20,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && nyc ava --verbose",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov",
+    "test": "xo",
     "generate": "gulp generate --max_old_space_size=4096",
     "compress": "gulp compress --max_old_space_size=4096"
   },
