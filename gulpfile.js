@@ -15,7 +15,7 @@ const GEO_DIR = path.join(__dirname, 'geojson');
 /**
  *  Save the political boundaries of the entire world.
  */
-gulp.task('save', async () => {
+gulp.task('generate', async () => {
   const saveDir = path.join(GEO_DIR, 'orig');
   const savePath = path.join(saveDir, 'world.geo.json');
 
