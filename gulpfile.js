@@ -10,13 +10,13 @@ const ProgressBar = require('ascii-progress');
 const gulp = require('gulp');
 const utils = require('./utils');
 
-const GEO_DIR = path.join(__dirname, 'geojson', 'world', 'maritime');
+const GEO_DIR = path.join(__dirname, 'geojson');
 
 /**
  *  Save the political boundaries of the entire world.
  */
 gulp.task('generate', async () => {
-  const saveDir = path.join(GEO_DIR, 'orig');
+  const saveDir = path.join(GEO_DIR, 'world', 'maritime', 'orig');
   const savePath = path.join(saveDir, 'world.geo.json');
 
   await fs.ensureDir(saveDir);
@@ -28,7 +28,7 @@ gulp.task('generate', async () => {
  *  Compress the political boundaries of the entire world.
  */
 gulp.task('compress', async () => {
-  const worldPath = path.join(GEO_DIR, 'orig', 'world.geo.json');
+  const worldPath = path.join(GEO_DIR, 'world', 'maritime', 'orig', 'world.geo.json');
   const sizes = {
     '1m': '1',
     '2m5': '2.5',
@@ -47,7 +47,7 @@ gulp.task('compress', async () => {
   const bar = new ProgressBar({total: Object.keys(sizes).length});
 
   for (const size of Object.keys(sizes)) {
-    const saveDir = path.join(GEO_DIR, size);
+    const saveDir = path.join(GEO_DIR, 'world', 'maritime', size);
     const savePath = path.join(saveDir, 'world.geo.json');
     const cmd = '-i ' + worldPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -o format=geojson ' + savePath;
     // eslint-disable-next-line no-await-in-loop
