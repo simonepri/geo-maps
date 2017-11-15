@@ -1,5 +1,5 @@
 #!/bin/bash
-cd geojson
+cd geojson/world/maritime
 for file in *; do
   cd $file
   if [ $file != 'orig' ]; then
