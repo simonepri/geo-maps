@@ -2,6 +2,7 @@
   <a href="https://github.com/simonepri/geo-countries"><img src="https://raw.githubusercontent.com/simonepri/geo-countries/master/media/geo-countries.jpg" alt="geo-countries" /></a>
 </h1>
 <div align="center">
+  <a href="hhttps://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome GeoJSON" /></a>
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/format-GeoJSON-e67e22.svg" alt="maps format" /></a>
   <a href="http://www.openstreetmap.org/"><img src="https://img.shields.io/badge/source-OSM-2ecc71.svg" alt="maps source" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/simonepri/geo-countries.svg" alt="software license" /></a>
