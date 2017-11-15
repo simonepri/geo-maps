@@ -10,7 +10,7 @@ const ProgressBar = require('ascii-progress');
 const gulp = require('gulp');
 const utils = require('./utils');
 
-const GEO_DIR = path.join(__dirname, 'geojson');
+const GEO_DIR = path.join(__dirname, 'geojson', 'world', 'maritime');
 
 /**
  *  Save the political boundaries of the entire world.
