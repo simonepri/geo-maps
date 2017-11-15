@@ -2,7 +2,7 @@
   <a href="https://github.com/simonepri/geo-countries"><img src="https://raw.githubusercontent.com/simonepri/geo-countries/master/media/geo-countries.jpg?raw=true" alt="geo-countries" /></a>
 </h1>
 <div align="center">
-  <a href="hhttps://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome GeoJSON" /></a>
+  <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome GeoJSON" /></a>
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/resolution-10km-8e44ad.svg" alt="maps resolution" /></a>
   <a href="https://www.npmjs.com/package/world-countries-boundaries-10km"><img src="https://img.shields.io/npm/dm/world-countries-boundaries-10km.svg" alt="npm downloads" /></a>
   <a href="https://www.npmjs.com/package/world-countries-boundaries-10km"><img src="https://img.shields.io/npm/v/world-countries-boundaries-10km.svg" alt="npm version" /></a>
