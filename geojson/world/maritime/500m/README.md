@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/simonepri/geo-countries"><img src="../../media/geo-countries.jpg?raw=true" alt="geo-countries" /></a>
+  <a href="https://github.com/simonepri/geo-countries"><img src="https://raw.githubusercontent.com/simonepri/geo-countries/master/media/geo-countries.jpg?raw=true" alt="geo-countries" /></a>
 </h1>
 <div align="center">
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/resolution-500m-8e44ad.svg" alt="maps resolution" /></a>
@@ -24,7 +24,7 @@
 Click on the image below to see a live preview of the map with an absolute error
 of **500m**.  
 
-[![World Boundaries](../../media/geo-countries-map.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/geo-countries/master/geojson/world/maritime/500m/world.geo.json)
+[![World Boundaries](https://raw.githubusercontent.com/simonepri/geo-countries/master/media/geo-countries-map.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/geo-countries/master/geojson/world/maritime/500m/world.geo.json)
 
 ## NPM package
 This map is also published as an npm package to be used for offline computations (See [country-codes](https://github.com/busrapidohq/country-codes) for example).
