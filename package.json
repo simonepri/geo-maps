@@ -25,7 +25,7 @@
   "scripts": {
     "test": "xo && nyc ava --verbose",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov",
-    "save": "gulp save --max_old_space_size=4096",
+    "generate": "gulp generate --max_old_space_size=4096",
     "compress": "gulp compress --max_old_space_size=4096"
   },
   "repository": {
