@@ -22,14 +22,14 @@
 
 ## Preview
 Click on the image below to see a live preview of the map with an absolute error
-of **1m**.  
+of **1 m**.  
 
 [![World Boundaries](https://raw.githubusercontent.com/simonepri/geo-countries/master/media/geo-countries-map.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/geo-countries/master/geojson/world/maritime/1m/world.geo.json)
 
 ## NPM package
 This map is also published as an npm package to be used for offline computations (See [country-codes](https://github.com/busrapidohq/country-codes) for example).
 ```bash
-$ npm install --save world-countries-boundaries-1km
+$ npm install --save world-countries-boundaries-1m
 ```
 
 ## Authors

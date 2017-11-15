@@ -22,7 +22,7 @@
 
 ## Preview
 Click on the image below to see a live preview of the map with an absolute error
-of **1km**.  
+of **1 km**.  
 
 [![World Boundaries](https://raw.githubusercontent.com/simonepri/geo-countries/master/media/geo-countries-map.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/geo-countries/master/geojson/world/maritime/1km/world.geo.json)
 
