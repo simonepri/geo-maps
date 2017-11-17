@@ -1,0 +1,49 @@
+{
+  "name": "geo-maps",
+  "version": "0.7.0",
+  "description": "High Quality GeoJSON maps programmatically generated.",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "ascii-progress": "^1.0.5",
+    "del": "^3.0.0",
+    "download": "^6.2.5",
+    "fs-extra": "^4.0.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "mapshaper": "^0.4.57",
+    "osm-countries": "^1.0.1",
+    "osm-geojson": "^0.6.0",
+    "pify": "^3.0.0",
+    "project-version": "^1.0.0",
+    "random-int": "^1.0.0",
+    "replace-in-files": "^1.1.0",
+    "request": "^2.83.0",
+    "wait-then": "^0.1.2",
+    "xo": "*"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "test": "xo",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonepri/geo-maps.git"
+  },
+  "author": {
+    "name": "Simone Primarosa",
+    "email": "simone.pri@hotmail.it"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonepri/geo-maps/issues"
+  },
+  "homepage": "https://github.com/simonepri/geo-maps#readme",
+  "xo": {
+    "space": true
+  }
+}
