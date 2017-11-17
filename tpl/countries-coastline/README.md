@@ -25,7 +25,7 @@
 Click on the image below to see a live preview of the map with an absolute error
 of **{{resolution}}**.  
 
-[![World Boundaries](https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-countries-coastline.png)](http://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/simonepri/geo-maps/master/maps/countries-coastline/{{resolution}}/map.geo.json)
+[![World Boundaries](https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-countries-coastline.png)](http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/v{{version}}/countries-coastline-{{resolution}}.geo.json)
 
 ## NPM package
 This map is also published as an npm package to be used for offline computations.
