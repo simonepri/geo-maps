@@ -19,6 +19,7 @@ const ProgressBar = require('ascii-progress');
 const tmpDir = path.join(__dirname, 'tmp');
 const tplDir = path.join(__dirname, 'tpl');
 const outDir = path.join(__dirname, '..', 'maps');
+const distDir = path.join(__dirname, 'dist');
 
 const sizes = {
   '1m': '1',
@@ -191,11 +192,38 @@ gulp.task('packages', async () => {
 });
 
 /**
+ * Populates the dist folder.
+ */
+gulp.task('distribution', async () => {
+  const maps = ['countries-maritime', 'countries-coastline', 'world-land'];
+
+  for (const map of maps) {
+    const bar = new ProgressBar({
+      schema: map + ': [:bar] :current/:total :percent :elapseds ETA: :etas',
+      total: Object.keys(sizes).length
+    });
+    for (const size of Object.keys(sizes)) {
+      const inFile = 'map.geo.json';
+      const outFile = [map, size].join('-') + '.geo.json';
+
+      const inMapPath = path.join(buildDir, map, size, inFile);
+      const outMapPath = path.join(distDir, outFile);
+
+      // eslint-disable-next-line no-await-in-loop
+      await fs.copy(inMapPath, outMapPath);
+      bar.tick();
+    }
+    bar.clear();
+  }
+});
+
+/**
  * Clean folders generated from the build process.
  */
 gulp.task('clean', async () => {
   await del(tmpDir);
   await del(outDir, {force: true});
+  await del(distDir);
 });
 
 /**
@@ -209,6 +237,7 @@ gulp.task('build',
     'generate-countries-maritime',
     'generate-countries-coastline',
     'compress',
-    'packages'
+    'packages',
+    'distribution'
   )
 );
