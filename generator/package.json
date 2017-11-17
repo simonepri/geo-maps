@@ -17,6 +17,7 @@
     "pify": "^3.0.0",
     "project-version": "^1.0.0",
     "random-int": "^1.0.0",
+    "release-it": "^4.4.1",
     "replace-in-files": "^1.1.0",
     "request": "^2.83.0",
     "wait-then": "^0.1.2",
@@ -28,7 +29,8 @@
   "scripts": {
     "gulp": "gulp",
     "test": "xo",
-    "build": "gulp build"
+    "build": "gulp build",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
