@@ -1,0 +1,51 @@
+{
+  "name": "@geo-maps/countries-maritime-{{resolution}}",
+  "version": "{{version}}",
+  "description": "High Quality GeoJSON map of countries' political maritime boundaries with {{resolution}} resolution.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonepri/geo-map.git"
+  },
+  "author": {
+    "name": "Simone Primarosa",
+    "email": "simone.pri@hotmail.it"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonepri/geo-maps/issues"
+  },
+  "homepage": "https://github.com/simonepri/geo-maps/tree/master/maps/countries-maritime/{{resolution}}",
+  "keywords": [
+    "world",
+    "earth",
+    "sea",
+    "map",
+    "maps",
+    "political",
+    "maritime",
+    "coastline",
+    "boundaries",
+    "boundary",
+    "bounds",
+    "bound",
+    "confine",
+    "confines",
+    "coordinate",
+    "coordinates",
+    "country",
+    "get",
+    "code",
+    "countries",
+    "administration",
+    "area",
+    "which",
+    "alpha-3",
+    "ISO 3166-1",
+    "OSM",
+    "geo",
+    "GeoJSON",
+    "OpenStreetMap",
+    "NaturalEarth"
+  ]
+}
