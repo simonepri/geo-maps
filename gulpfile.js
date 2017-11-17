@@ -20,6 +20,7 @@ const tmpDir = path.join(__dirname, 'tmp');
 const tplDir = path.join(__dirname, 'tpl');
 const buildDir = path.join(__dirname, 'build');
 const distDir = path.join(__dirname, 'dist');
+const pkgsDir = path.join(__dirname, 'pkgs');
 
 const sizes = {
   '1m': '1',
@@ -157,8 +158,10 @@ gulp.task('compress', async () => {
 /**
  * Setup maps to be published as signle packages.
  */
-gulp.task('packages', async () => {
+gulp.task('pkgs', async () => {
   const maps = ['countries-maritime', 'countries-coastline', 'world-land'];
+
+  await fs.copy(buildDir, pkgsDir);
 
   for (const map of maps) {
     const bar = new ProgressBar({
@@ -167,7 +170,7 @@ gulp.task('packages', async () => {
     });
     const tplMapDir = path.join(tplDir, map);
     for (const size of Object.keys(sizes)) {
-      const outMapDir = path.join(buildDir, map, size);
+      const outMapDir = path.join(pkgsDir, map, size);
       // eslint-disable-next-line no-await-in-loop
       await fs.copy(tplMapDir, outMapDir);
 
@@ -194,7 +197,7 @@ gulp.task('packages', async () => {
 /**
  * Populates the dist folder.
  */
-gulp.task('distribution', async () => {
+gulp.task('dist', async () => {
   const maps = ['countries-maritime', 'countries-coastline', 'world-land'];
 
   for (const map of maps) {
@@ -224,6 +227,7 @@ gulp.task('clean', async () => {
   await del(tmpDir);
   await del(buildDir);
   await del(distDir);
+  await del(pkgsDir);
 });
 
 /**
@@ -236,8 +240,6 @@ gulp.task('build',
     'generate-world-land',
     'generate-countries-maritime',
     'generate-countries-coastline',
-    'compress',
-    'packages',
-    'distribution'
+    'compress'
   )
 );

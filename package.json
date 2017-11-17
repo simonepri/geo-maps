@@ -30,7 +30,8 @@
     "gulp": "gulp",
     "test": "xo",
     "build": "gulp build",
-    "release": "release-it"
+    "release": "gulp dist&& release-it",
+    "publish": "gulp pkgs&& bash publish.sh"
   },
   "repository": {
     "type": "git",
