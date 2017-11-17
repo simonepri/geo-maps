@@ -18,7 +18,7 @@ const ProgressBar = require('ascii-progress');
 
 const tmpDir = path.join(__dirname, 'tmp');
 const tplDir = path.join(__dirname, 'tpl');
-const outDir = path.join(__dirname, '..', 'maps');
+const buildDir = path.join(__dirname, 'build');
 const distDir = path.join(__dirname, 'dist');
 
 const sizes = {
@@ -140,7 +140,7 @@ gulp.task('compress', async () => {
     });
     for (const size of Object.keys(sizes)) {
       const mapPath = path.join(tmpDir, map + '.geo.json');
-      const outMapDir = path.join(outDir, map, size);
+      const outMapDir = path.join(buildDir, map, size);
       const outMapPath = path.join(outMapDir, 'map.geo.json');
       const cmd = '-i ' + mapPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -o format=geojson ' + outMapPath;
 
@@ -167,7 +167,7 @@ gulp.task('packages', async () => {
     });
     const tplMapDir = path.join(tplDir, map);
     for (const size of Object.keys(sizes)) {
-      const outMapDir = path.join(outDir, map, size);
+      const outMapDir = path.join(buildDir, map, size);
       // eslint-disable-next-line no-await-in-loop
       await fs.copy(tplMapDir, outMapDir);
 
@@ -222,7 +222,7 @@ gulp.task('distribution', async () => {
  */
 gulp.task('clean', async () => {
   await del(tmpDir);
-  await del(outDir, {force: true});
+  await del(buildDir);
   await del(distDir);
 });
 
