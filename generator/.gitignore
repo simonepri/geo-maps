@@ -24,3 +24,5 @@ jspm_packages/
 
 # Folders
 tmp
+build
+dist
