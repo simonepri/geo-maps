@@ -1,13 +1,18 @@
 #!/bin/bash
 
-cd build
-for m in *; do
-  cd $m
-  for r in *; do
-    cd $r
-    npm publish &
+read -p "Are you sure to want to publish the packages? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  cd build
+  for m in *; do
+    cd $m
+    for r in *; do
+      cd $r
+      npm publish &
+      cd ..
+    fi
     cd ..
-  fi
-  cd ..
-done
-wait
+  done
+  wait
+fi
