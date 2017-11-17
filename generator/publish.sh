@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd maps
+cd build
 for m in *; do
   cd $m
   for r in *; do
