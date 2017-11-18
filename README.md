@@ -46,67 +46,1253 @@ different precisions.
 Please note that for precision we mean the absolute error between the polygons
 in the original map extracted from OSM and the ones we produce.
 
-<hr></hr>
+### Map of countries' political maritime boundaries
+Description.
 
-<h3 align="center">Map of countries' political maritime boundaries</h3>
+<table>
+  <tr>
+    <th>Resolution</th>
+    <th>Previews</th>
+    <th>Size</th>
+    <th>GH Downloads</th>
+    <th>NPM Downloads</th>
+  </tr>
 
-Name | Precision | Size
------|-----------|-----
-[@geo-maps/countries-maritime-1m](maps/countries-maritime/1m) | 1 meters resolution | ~94.0 MB
-[@geo-maps/countries-maritime-2m5](maps/countries-maritime/2m5) | 2.5 meters resolution | ~87.4 MB
-[@geo-maps/countries-maritime-5m](maps/countries-maritime/5m) | 5 meters resolution | ~79.2 MB
-[@geo-maps/countries-maritime-10m](maps/countries-maritime/10m) | 10 meters resolution | ~67.2 MB
-[@geo-maps/countries-maritime-25m](maps/countries-maritime/25m) | 25 meters resolution | ~47.0 MB
-[@geo-maps/countries-maritime-50m](maps/countries-maritime/50m) | 50 meters resolution | ~32.1 MB
-[@geo-maps/countries-maritime-100m](maps/countries-maritime/100m) | 100 meters resolution | ~20.6 MB
-[@geo-maps/countries-maritime-250m](maps/countries-maritime/250m) | 250 meters resolution | ~10.6 MB
-[@geo-maps/countries-maritime-500m](maps/countries-maritime/500m) | 500 meters resolution | ~6.1 MB
-[@geo-maps/countries-maritime-1km](maps/countries-maritime/1km) | 1000 meters resolution | ~3.4 MB
-[@geo-maps/countries-maritime-2km5](maps/countries-maritime/2km5) | 2500 meters resolution | ~1.6 MB
-[@geo-maps/countries-maritime-5km](maps/countries-maritime/5km) | 5000 meters resolution | ~0.9 MB
-[@geo-maps/countries-maritime-10km](maps/countries-maritime/10km) | 10000 meters resolution | ~0.5 MB
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-1m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-1m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-1m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-1m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
 
-<hr></hr>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-2m5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2m5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2m5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-2m5.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2m5.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-2m5.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-2m5">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-2m5.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
 
-<h3 align="center">Map of countries' political coastline boundaries</h3>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-5m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-5m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-5m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-5m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
 
-Name | Precision | Size
------|-----------|-----
-[@geo-maps/countries-coastline-1m](maps/countries-coastline/1m) | 1 meters resolution | ~146.7 MB
-[@geo-maps/countries-coastline-2m5](maps/countries-coastline/2m5) | 2.5 meters resolution | ~140.7 MB
-[@geo-maps/countries-coastline-5m](maps/countries-coastline/5m) | 5 meters resolution | ~133.1 MB
-[@geo-maps/countries-coastline-10m](maps/countries-coastline/10m) | 10 meters resolution | ~122.5 MB
-[@geo-maps/countries-coastline-25m](maps/countries-coastline/25m) | 25 meters resolution | ~103.4 MB
-[@geo-maps/countries-coastline-50m](maps/countries-coastline/50m) | 50 meters resolution | ~89.2 MB
-[@geo-maps/countries-coastline-100m](maps/countries-coastline/100m) | 100 meters resolution | ~72.7 MB
-[@geo-maps/countries-coastline-250m](maps/countries-coastline/250m) | 250 meters resolution | ~41.3 MB
-[@geo-maps/countries-coastline-500m](maps/countries-coastline/500m) | 500 meters resolution | ~21.1 MB
-[@geo-maps/countries-coastline-1km](maps/countries-coastline/1km) | 1000 meters resolution | ~9.6 MB
-[@geo-maps/countries-coastline-2km5](maps/countries-coastline/2km5) | 2500 meters resolution | ~3.3 MB
-[@geo-maps/countries-coastline-5km](maps/countries-coastline/5km) | 5000 meters resolution | ~1.5 MB
-[@geo-maps/countries-coastline-10km](maps/countries-coastline/10km) | 10000 meters resolution | ~0.8 MB
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-10m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-10m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-10m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-10m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-10m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
 
-<hr></hr>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-25m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-25m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-25m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-25m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-25m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-25m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-25m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
 
-<h3 align="center">Map of earth's land territories</h3>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-50m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-50m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-50m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-50m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-50m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-50m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-50m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-50m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
 
-Name | Precision | Size
------|-----------|-----
-[@geo-maps/word-land-1m](maps/word-land/1m) | 1 meters resolution | ~66.7 MB
-[@geo-maps/word-land-2m5](maps/word-land/2m5) | 2.5 meters resolution | ~66.7 MB
-[@geo-maps/word-land-5m](maps/word-land/5m) | 5 meters resolution | ~66.7 MB
-[@geo-maps/word-land-10m](maps/word-land/10m) | 10 meters resolution | ~66.6 MB
-[@geo-maps/word-land-25m](maps/word-land/25m) | 25 meters resolution | ~66.4 MB
-[@geo-maps/word-land-50m](maps/word-land/50m) | 50 meters resolution | ~65.3 MB
-[@geo-maps/word-land-100m](maps/word-land/100m) | 100 meters resolution | ~60.1 MB
-[@geo-maps/word-land-250m](maps/word-land/250m) | 250 meters resolution | ~42.1 MB
-[@geo-maps/word-land-500m](maps/word-land/500m) | 500 meters resolution | ~28.0 MB
-[@geo-maps/word-land-1km](maps/word-land/1km) | 1000 meters resolution | ~19.8 MB
-[@geo-maps/word-land-2km5](maps/word-land/2km5) | 2500 meters resolution | ~15.5 MB
-[@geo-maps/word-land-5km](maps/word-land/5km) | 5000 meters resolution | ~14.3 MB
-[@geo-maps/word-land-10km](maps/word-land/10km) | 10000 meters resolution | ~13.9 MB
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-100m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-100m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-100m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-100m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-100m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-100m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-100m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
 
-<hr></hr>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-250m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-250m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-250m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-250m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-250m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-250m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-250m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-250m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-500m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-500m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-500m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-500m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-500m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-500m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-500m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-1km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-1km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-1km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-1km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-1km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2km5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2km5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-2km5.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2km5.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-2km5.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-2km5">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-2km5.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-5km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-5km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-5km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-5km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-5km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-10km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-maritime-10km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-maritime-10km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-maritime-10km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## Map of countries' political coastline boundaries
+Description.
+
+<table>
+  <tr>
+    <th>Resolution</th>
+    <th>Previews</th>
+    <th>Size</th>
+    <th>GH Downloads</th>
+    <th>NPM Downloads</th>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-1m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-1m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-1m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-1m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-2m5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2m5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2m5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-2m5.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2m5.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-2m5.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-2m5">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-2m5.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-5m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-5m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-5m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-5m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-10m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-10m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-10m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-10m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-10m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-25m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-25m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-25m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-25m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-25m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-25m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-25m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-50m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-50m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-50m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-50m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-50m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-50m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-50m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-50m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-100m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-100m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-100m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-100m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-100m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-100m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-100m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-250m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-250m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-250m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-250m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-250m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-250m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-250m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-250m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-500m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-500m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-500m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-500m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-500m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-500m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-500m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-1km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-1km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-1km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-1km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-1km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2km5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2km5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-2km5.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2km5.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-2km5.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-2km5">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-2km5.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-5km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-5km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-5km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-5km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-5km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-10km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-coastline-10km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-10km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-10km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## Map of earth's land territories
+Description.
+
+<table>
+  <tr>
+    <th>Resolution</th>
+    <th>Previews</th>
+    <th>Size</th>
+    <th>GH Downloads</th>
+    <th>NPM Downloads</th>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-1m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-1m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-1m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-1m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-2m5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2m5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2m5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-2m5.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2m5.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-2m5.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-2m5">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-2m5.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-5m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-5m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-5m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-5m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-10m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-10m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-10m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-10m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-10m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-25m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-25m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-25m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-25m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-25m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-25m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-25m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-50m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-50m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-50m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-50m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-50m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-50m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-50m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-50m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-100m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-100m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-100m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-100m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-100m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-100m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-100m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-250m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-250m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-250m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-250m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-250m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-250m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-250m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-250m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-500m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-500m.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-500m.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-500m.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-500m.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-500m">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-500m.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-1km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-1km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-1km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-1km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-1km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2km5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2km5.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-2km5.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2km5.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-2km5.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-2km5">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-2km5.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-5km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-5km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-5km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-5km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-5km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+      </a>
+      <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10km.geo.json">
+        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+      </a>
+    </td>
+    <td>
+      <a href="#">
+        <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-10km.geo.json.svg" alt="file size"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10km.geo.json">
+        <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/world-land-10km.geo.json.svg" alt="github downloads"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/package/@geo-maps/world-land-10km">
+        <img src="https://img.shields.io/npm/dm/@geo-maps/world-land-10km.svg" alt="npm downloads"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Authors
 * **Simone Primarosa** - [simonepri](https://github.com/simonepri)
