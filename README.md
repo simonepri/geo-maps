@@ -46,6 +46,7 @@ different precisions.
 Please note that for precision we mean the absolute error between the polygons
 in the original map extracted from OSM and the ones we produce.
 
+<a name="countries-maritime"></a>
 ### Map of countries' political maritime boundaries
 Description.
 
@@ -60,7 +61,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -73,7 +74,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-1m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -91,7 +92,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-2m5-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -104,7 +105,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-2m5.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -122,7 +123,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -135,7 +136,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-5m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -153,7 +154,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-10m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -166,7 +167,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-10m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -184,7 +185,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -197,7 +198,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-25m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -215,7 +216,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-50m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -228,7 +229,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-50m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -246,7 +247,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -259,7 +260,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-100m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -277,7 +278,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-250m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -290,7 +291,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-250m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -308,7 +309,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -321,7 +322,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-500m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -339,7 +340,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-1km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -352,7 +353,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-1km.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -370,7 +371,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -383,7 +384,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-2km5.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -401,7 +402,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-5km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -414,7 +415,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-5km.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -432,7 +433,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -445,7 +446,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-maritime">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-maritime-10km.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -462,6 +463,8 @@ Description.
   </tr>
 </table>
 
+<a name="countries-coastline"></a>
+
 ## Map of countries' political coastline boundaries
 Description.
 
@@ -476,7 +479,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -489,7 +492,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-1m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -507,7 +510,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-2m5-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -520,7 +523,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-2m5.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -538,7 +541,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -551,7 +554,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-5m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -569,7 +572,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-10m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -582,7 +585,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-10m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -600,7 +603,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -613,7 +616,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-25m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -631,7 +634,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-50m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -644,7 +647,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-50m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -662,7 +665,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -675,7 +678,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-100m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -693,7 +696,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-250m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -706,7 +709,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-250m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -724,7 +727,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -737,7 +740,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-500m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -755,7 +758,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-1km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -768,7 +771,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-1km.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -786,7 +789,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -799,7 +802,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-2km5.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -817,7 +820,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-5km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -830,7 +833,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-5km.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -848,7 +851,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -861,7 +864,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#countries-coastline">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/countries-coastline-10km.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -878,6 +881,8 @@ Description.
   </tr>
 </table>
 
+<a name="world-land">
+
 ## Map of earth's land territories
 Description.
 
@@ -892,7 +897,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -905,7 +910,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-1m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -923,7 +928,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-2m5-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -936,7 +941,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-2m5.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -954,7 +959,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -967,7 +972,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-5m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -985,7 +990,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-10m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -998,7 +1003,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-10m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1016,7 +1021,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1029,7 +1034,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-25m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1047,7 +1052,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-50m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1060,7 +1065,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-50m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1078,7 +1083,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1091,7 +1096,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-100m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1109,7 +1114,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-250m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1122,7 +1127,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-250m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1140,7 +1145,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1153,7 +1158,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-500m.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1171,7 +1176,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-1km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1184,7 +1189,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-1km.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1202,7 +1207,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1215,7 +1220,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-2km5.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1233,7 +1238,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-5km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1246,7 +1251,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-5km.geo.json.svg" alt="file size"/>
       </a>
     </td>
@@ -1264,7 +1269,7 @@ Description.
 
   <tr>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
       </a>
     </td>
@@ -1277,7 +1282,7 @@ Description.
       </a>
     </td>
     <td>
-      <a href="#">
+      <a href="#world-land">
         <img src="https://img.shields.io/github/size/simonepri/geo-maps/releases/download/latest/world-land-10km.geo.json.svg" alt="file size"/>
       </a>
     </td>
