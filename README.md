@@ -47,7 +47,7 @@ Please note that for precision we mean the absolute error between the polygons
 in the original map extracted from OSM and the ones we produce.
 
 <a name="countries-maritime"></a>
-### Map of countries' political maritime boundaries
+## Map of countries' political maritime boundaries
 Description.
 
 <table>
