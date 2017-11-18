@@ -66,10 +66,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -97,10 +97,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2m5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2m5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -128,10 +128,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -159,10 +159,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -190,10 +190,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-25m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-25m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -221,10 +221,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-50m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-50m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -252,10 +252,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-100m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-100m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -283,10 +283,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-250m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-250m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -314,10 +314,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-500m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-500m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -345,10 +345,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-1km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -376,10 +376,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2km5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-2km5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -407,10 +407,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-5km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -438,10 +438,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-maritime-10km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -482,10 +482,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -513,10 +513,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2m5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2m5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -544,10 +544,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -575,10 +575,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -606,10 +606,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-25m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-25m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -637,10 +637,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-50m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-50m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -668,10 +668,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-100m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-100m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -699,10 +699,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-250m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-250m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -730,10 +730,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-500m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-500m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -761,10 +761,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-1km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -792,10 +792,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2km5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-2km5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -823,10 +823,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-5km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -854,10 +854,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/countries-coastline-10km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -898,10 +898,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -929,10 +929,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2m5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2m5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -960,10 +960,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -991,10 +991,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1022,10 +1022,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-25m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-25m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1053,10 +1053,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-50m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-50m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1084,10 +1084,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-100m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-100m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1115,10 +1115,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-250m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-250m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1146,10 +1146,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-500m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-500m.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1177,10 +1177,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-1km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1208,10 +1208,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2km5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-2km5.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1239,10 +1239,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-5km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
@@ -1270,10 +1270,10 @@ Description.
     </td>
     <td>
       <a href="http://mapshaper.org/?files=https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
+        <img src="https://img.shields.io/badge/see_on-mapshaper-1abc9c.svg" alt="see with mapshaper"/>
       </a>
       <a href="http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/latest/world-land-10km.geo.json">
-        <img src="https://img.shields.io/badge/see_with-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
+        <img src="https://img.shields.io/badge/see_on-geojson.io-1abc9c.svg" alt="see with geojson.io"/>
       </a>
     </td>
     <td>
