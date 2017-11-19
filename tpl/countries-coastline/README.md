@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps.jpg" alt="geo-maps" /></a>
 </h1>
-<div align="center">
+<p align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome-geojson" /></a>
   <a href="https://github.com/simonepri/geo-maps/tree/rework#countries-coastline"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
   <a href="https://github.com/simonepri/geo-maps/tree/rework#countries-coastline"><img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-{{resolution}}/world.geo.json" alt="map size" /></a>
@@ -11,16 +11,16 @@
   <a href="http://www.openstreetmap.org/"><img src="https://img.shields.io/badge/source-OSM-2ecc71.svg" alt="map source" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/simonepri/geo-maps.svg" alt="software license" /></a>
   <a href="https://opendatacommons.org/licenses/odbl/1.0/"><img src="https://img.shields.io/badge/license-ODbL-2980b9.svg" alt="data license" /></a>
-</div>
+</p>
 <br />
-<div align="center">
+<p align="center">
   🗺 High Quality GeoJSON map of countries' political coastline boundaries with {{resolution}} resolution.
-</div>
-<div align="center">
+</p>
+<p align="center">
   <sub>
     The only GeoJSON maps of the world you will ever need!
   </sub>
-</div>
+</p>
 
 ## Preview
 Click on the image below to see a live preview of the map with an absolute error
