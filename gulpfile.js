@@ -86,7 +86,7 @@ gulp.task('generate-world-land', async () => {
   };
   await download(dataUrl, tmpLandDir, opts);
 
-  const cmd = '-i ' + shpLandPath + '  -proj from=' + prjLandPath + ' +init=EPSG:4326 -clean -o format=geojson ' + landPath;
+  const cmd = '-i ' + shpLandPath + '  -proj from=' + prjLandPath + ' +init=EPSG:4326 -clean -o precision=0.000001 format=geojson geojson-type="Feature" ' + landPath;
 
   await pify(mapshaper.runCommands)(cmd);
   await del(tmpLandDir);
@@ -113,7 +113,7 @@ gulp.task('generate-countries-maritime', async () => {
 
   await fs.outputJson(maritimePath, maritime);
 
-  const cmd = '-i ' + maritimePath + ' -clean -o force format=geojson ' + maritimePath;
+  const cmd = '-i ' + maritimePath + ' -clean -o force precision=0.000001 format=geojson ' + maritimePath;
   await pify(mapshaper.runCommands)(cmd);
 });
 
@@ -141,7 +141,7 @@ gulp.task('generate-countries-coastline', async () => {
 
   await fs.outputJson(costlinePath, world);
 
-  const cmd = '-i ' + costlinePath + ' -clip ' + landPath + ' -clean -o force format=geojson ' + costlinePath;
+  const cmd = '-i ' + costlinePath + ' -clip ' + landPath + ' -clean -o force precision=0.000001 format=geojson ' + costlinePath;
   await pify(mapshaper.runCommands)(cmd);
 });
 
@@ -161,7 +161,7 @@ gulp.task('compress', async () => {
       const mapPath = path.join(tmpDir, map + '.geo.json');
       const outMapDir = path.join(buildDir, map, size);
       const outMapPath = path.join(outMapDir, 'map.geo.json');
-      const cmd = '-i ' + mapPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -clean -o format=geojson precision=' + precision[size] + ' bbox prettify ' + outMapPath;
+      const cmd = '-i ' + mapPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -clean -o precision=' + precision[size] + ' format=geojson bbox prettify ' + outMapPath;
 
       // eslint-disable-next-line no-await-in-loop
       await fs.ensureDir(outMapDir);
