@@ -26,7 +26,7 @@
 Click on the image below to see a live preview of the map with an absolute error
 of **{{resolution}}**.  
 
-<center>
+<p align="center">
   <a alt="World Boundaries" href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-{{resolution}}/map.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps-countries-coastline-shape.png" width ="45%"/>
   </a>

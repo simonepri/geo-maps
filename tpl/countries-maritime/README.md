@@ -26,14 +26,14 @@
 Click on the image below to see a live preview of the map with an absolute error
 of **{{resolution}}**.  
 
-<center>
+<p align="center">
   <a alt="World Boundaries" href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-{{resolution}}/map.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps-countries-maritime-shape.png" width ="45%"/>
   </a>
   <a alt="World Boundaries" href="http://geojson.io/#data=data:text/x-url,https://unpkg.com/@geo-maps/countries-maritime-{{resolution}}/map.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps-countries-maritime-hover.png" width ="45%"/>
   </a>
-</center>
+</p>
 
 ## Install
 ```bash
