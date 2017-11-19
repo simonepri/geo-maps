@@ -86,7 +86,7 @@ gulp.task('generate-world-land', async () => {
   };
   await download(dataUrl, tmpLandDir, opts);
 
-  const cmd = '-i ' + shpLandPath + '  -proj from=' + prjLandPath + ' +init=EPSG:4326 -clean -o precision=0.000001 format=geojson geojson-type="Feature" ' + landPath;
+  const cmd = '-i ' + shpLandPath + '  -proj from=' + prjLandPath + ' +init=EPSG:4326 -dissolve -clean -o precision=0.000001 format=geojson ' + landPath;
 
   await pify(mapshaper.runCommands)(cmd);
   await del(tmpLandDir);
