@@ -39,6 +39,22 @@ const sizes = {
   '10km': '10000'
 };
 
+const precision = {
+  '1m': '0.000001',
+  '2m5': '0.00001',
+  '5m': '0.00001',
+  '10m': '0.00001',
+  '25m': '0.0001',
+  '50m': '0.0001',
+  '100m': '0.0001',
+  '250m': '0.001',
+  '500m': '0.001',
+  '1km': '0.001',
+  '2km5': '0.01',
+  '5km': '0.01',
+  '10km': '0.01'
+};
+
 /**
  * Fetches the geojson of each country on the earth and export it in the tmp
  * folder in order to be used by other tasks.
@@ -60,6 +76,7 @@ gulp.task('generate-world-land', async () => {
   const landPath = path.join(tmpDir, 'world-land.geo.json');
 
   const tmpLandDir = path.join(tmpDir, 'world-land');
+  const prjLandPath = path.join(tmpLandDir, 'simplified_land_polygons.prj');
   const shpLandPath = path.join(tmpLandDir, 'simplified_land_polygons.shp');
   const dataUrl = 'http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip';
 
@@ -69,7 +86,7 @@ gulp.task('generate-world-land', async () => {
   };
   await download(dataUrl, tmpLandDir, opts);
 
-  const cmd = '-i ' + shpLandPath + ' -proj lonlat -clean -o geojson-type="GeometryCollection" format=geojson ' + landPath;
+  const cmd = '-i ' + shpLandPath + '  -proj from=' + prjLandPath + ' +init=EPSG:4326 -clean -o format=geojson ' + landPath;
 
   await pify(mapshaper.runCommands)(cmd);
   await del(tmpLandDir);
@@ -144,7 +161,7 @@ gulp.task('compress', async () => {
       const mapPath = path.join(tmpDir, map + '.geo.json');
       const outMapDir = path.join(buildDir, map, size);
       const outMapPath = path.join(outMapDir, 'map.geo.json');
-      const cmd = '-i ' + mapPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -clean -o format=geojson ' + outMapPath;
+      const cmd = '-i ' + mapPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -clean -o format=geojson precision=' + precision[size] + ' bbox prettify ' + outMapPath;
 
       // eslint-disable-next-line no-await-in-loop
       await fs.ensureDir(outMapDir);
