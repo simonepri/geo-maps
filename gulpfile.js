@@ -174,7 +174,7 @@ gulp.task('compress', async () => {
 });
 
 /**
- * Copy some an example of each type of maps in the preview folder to be used
+ * Copy an example of each type of maps in the preview folder to be used
  * to show a live preview of the maps.
  */
 gulp.task('preview', async () => {
