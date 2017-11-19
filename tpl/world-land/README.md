@@ -1,13 +1,14 @@
 <h1 align="center">
-  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps.jpg?raw=true" alt="geo-maps" /></a>
+  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps.jpg" alt="geo-maps" /></a>
 </h1>
 <div align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome-geojson" /></a>
-  <a href="http://geojson.org/"><img src="https://img.shields.io/badge/resolution-{{resolution}}-8e44ad.svg" alt="maps resolution" /></a>
+  <a href="http://geojson.org/"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
+  <a href="https://github.com/simonepri/geo-maps"><img src="https://badges.herokuapp.com/size/npm/world-countries-boundaries-{{resolution}}/world.geo.json" alt="map size" /></a>
   <a href="https://www.npmjs.com/package/@geo-maps/world-land-{{resolution}}"><img src="https://img.shields.io/npm/dm/@geo-maps/world-land-{{resolution}}.svg" alt="npm downloads" /></a>
   <a href="https://www.npmjs.com/package/@geo-maps/world-land-{{resolution}}"><img src="https://img.shields.io/npm/v/@geo-maps/world-land-{{resolution}}.svg" alt="npm version" /></a>
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/format-GeoJSON-e67e22.svg" alt="maps format" /></a>
-  <a href="http://www.openstreetmap.org/"><img src="https://img.shields.io/badge/source-OSM-2ecc71.svg" alt="maps source" /></a>
+  <a href="http://www.openstreetmap.org/"><img src="https://img.shields.io/badge/source-OSM-2ecc71.svg" alt="map source" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/simonepri/geo-maps.svg" alt="software license" /></a>
   <a href="https://opendatacommons.org/licenses/odbl/1.0/"><img src="https://img.shields.io/badge/license-ODbL-2980b9.svg" alt="data license" /></a>
 </div>
@@ -22,15 +23,27 @@
 </div>
 
 ## Preview
-Click on the image below to see a live preview of the map with an absolute error
+Click on the images below to see a live preview of the map with an absolute error
 of **{{resolution}}**.  
 
-[![World Boundaries](https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-world-land.png)](http://geojson.io/#data=data:text/x-url,https://github.com/simonepri/geo-maps/releases/download/v{{version}}/world-land-{{resolution}}.geo.json)
+<center>
+  <a alt="World Boundaries" href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-{{resolution}}/map.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps-world-land-shape.png" width ="45%"/>
+  </a>
+  <a alt="World Boundaries" href="http://geojson.io/#data=data:text/x-url,https://unpkg.com/@geo-maps/world-land-{{resolution}}/map.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps-world-land-hover.png" width ="45%"/>
+  </a>
+</center>
 
-## NPM package
-This map is also published as an npm package to be used for offline computations.
+## Install
 ```bash
 $ npm install --save @geo-maps/world-land-{{resolution}}
+```
+
+## Usage
+```javascript
+// Just require it and you are done!
+const geoWorldLand = require('@geo-maps/world-land-{{resolution}}');
 ```
 
 ## Authors
