@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/simonepri/geo-maps/issues"
   },
-  "homepage": "https://github.com/simonepri/geo-maps/tree/master/maps/countries-maritime/{{resolution}}",
+  "homepage": "https://github.com/simonepri/geo-maps#readme",
   "keywords": [
     "world",
     "earth",
