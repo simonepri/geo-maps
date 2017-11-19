@@ -82,7 +82,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-1m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-1m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -110,7 +110,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-2m5/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-2m5/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -138,7 +138,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-5m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-5m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -166,7 +166,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-10m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-10m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -194,7 +194,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-25m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-25m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -222,7 +222,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-50m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-50m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -250,7 +250,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-100m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-100m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -278,7 +278,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-250m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-250m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -306,7 +306,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-500m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-500m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -334,7 +334,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-1km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-1km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -362,7 +362,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-2km5/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-2km5/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -390,7 +390,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-5km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-5km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -418,7 +418,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-maritime">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-10km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-maritime-10km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -469,7 +469,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-1m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-1m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -497,7 +497,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-2m5/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-2m5/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -525,7 +525,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-5m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-5m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -553,7 +553,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-10m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-10m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -581,7 +581,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-25m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-25m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -609,7 +609,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-50m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-50m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -637,7 +637,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-100m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-100m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -665,7 +665,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-250m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-250m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -693,7 +693,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-500m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-500m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -721,7 +721,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-1km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-1km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -749,7 +749,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-2km5/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-2km5/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -777,7 +777,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-5km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-5km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -805,7 +805,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#countries-coastline">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-10km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-10km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -855,7 +855,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-1m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-1m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -883,7 +883,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-2m5/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-2m5/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -911,7 +911,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-5m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-5m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -939,7 +939,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-10m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-10m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -967,7 +967,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-25m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-25m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -995,7 +995,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-50m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-50m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -1023,7 +1023,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-100m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-100m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -1051,7 +1051,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-250m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-250m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -1079,7 +1079,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-500m/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-500m/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -1107,7 +1107,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-1km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-1km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -1135,7 +1135,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-2km5/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-2km5/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -1163,7 +1163,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-5km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-5km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
@@ -1191,7 +1191,7 @@ Click on badges to interact with them.
     </td>
     <td>
       <a href="#world-land">
-        <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-10km/map.geo.json" alt="file size"/>
+        <img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/world-land-10km/map.geo.json" alt="file size"/>
       </a>
     </td>
     <td>
