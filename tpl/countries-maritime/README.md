@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps.jpg" alt="geo-maps" /></a>
+  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps.jpg" alt="geo-maps" /></a>
 </h1>
 <div align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome-geojson" /></a>
