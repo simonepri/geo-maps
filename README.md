@@ -57,7 +57,7 @@ Then we collect all GeoJSONs in a single GeoJSON on which we apply the [Visvalin
 
 > You can find the source code of the exportation process [here](gulfile.js).
 
-Below you can find references to all the resolutions available for this kind of map.
+Below you can find references to all the resolutions available for this kind of map.  
 Click on badges to interact with them.
 
 <table>
@@ -378,7 +378,7 @@ Finally we collect all GeoJSONs in a single GeoJSON on which we apply the [Visva
 
 > You can find the source code of the exportation process [here](gulfile.js).
 
-Below you can find references to all the resolutions available for this kind of map.
+Below you can find references to all the resolutions available for this kind of map.  
 Click on badges to interact with them.
 
 <table>
@@ -698,7 +698,7 @@ Finally we apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify
 
 > You can find the source code of the exportation process [here](gulfile.js).
 
-Below you can find references to all the resolutions available for this kind of map.
+Below you can find references to all the resolutions available for this kind of map.  
 Click on badges to interact with them.
 
 <table>
