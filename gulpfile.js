@@ -124,7 +124,7 @@ gulp.task('generate-countries-coastline', async () => {
 
   await fs.outputJson(costlinePath, world);
 
-  const cmd = '-i ' + costlinePath + ' -clean -clip ' + landPath + ' -o force format=geojson ' + costlinePath;
+  const cmd = '-i ' + costlinePath + ' -clip ' + landPath + ' -clean -o force format=geojson ' + costlinePath;
   await pify(mapshaper.runCommands)(cmd);
 });
 
@@ -144,7 +144,7 @@ gulp.task('compress', async () => {
       const mapPath = path.join(tmpDir, map + '.geo.json');
       const outMapDir = path.join(buildDir, map, size);
       const outMapPath = path.join(outMapDir, 'map.geo.json');
-      const cmd = '-i ' + mapPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -o format=geojson ' + outMapPath;
+      const cmd = '-i ' + mapPath + ' -simplify keep-shapes interval=' + sizes[size] + ' -clean -o format=geojson ' + outMapPath;
 
       // eslint-disable-next-line no-await-in-loop
       await fs.ensureDir(outMapDir);
