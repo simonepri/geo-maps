@@ -21,6 +21,7 @@ const tplDir = path.join(__dirname, 'tpl');
 const buildDir = path.join(__dirname, 'build');
 const distDir = path.join(__dirname, 'dist');
 const pkgsDir = path.join(__dirname, 'pkgs');
+const prevDir = path.join(__dirname, 'preview');
 
 const sizes = {
   '1m': '1',
@@ -156,6 +157,26 @@ gulp.task('compress', async () => {
 });
 
 /**
+ * Copy some an example of each type of maps in the preview folder to be used
+ * to show a live preview of the maps.
+ */
+gulp.task('preview', async () => {
+  const maps = ['countries-maritime', 'countries-coastline', 'world-land'];
+  for (const map of maps) {
+    const inMapFile = 'map.geo.json';
+    const outFile = map + '.geo.json';
+
+    const inMapDir = path.join(buildDir, map, '10km');
+
+    const inMapPath = path.join(inMapDir, inMapFile);
+    const outMapPath = path.join(prevDir, outFile);
+
+    // eslint-disable-next-line no-await-in-loop
+    await fs.copy(inMapPath, outMapPath);
+  }
+});
+
+/**
  * Setup maps to be published as signle packages.
  */
 gulp.task('pkgs', async () => {
@@ -240,6 +261,7 @@ gulp.task('build',
     'generate-world-land',
     'generate-countries-maritime',
     'generate-countries-coastline',
-    'compress'
+    'compress',
+    'preview'
   )
 );
