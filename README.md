@@ -826,7 +826,7 @@ Click on badges to interact with them.
 
 ## Map of earth's land territories
 To export these maps we first download the simplified shapefile of land polygons from the [OpenStreetMapData](http://openstreetmapdata.com/data/land-polygons) page.  
-Then we project the shapefile to a [EPSG:4326](http://spatialreference.org/ref/epsg/wgs-84/) and export it to GeoJSON format using [mapshaper](https://github.com/mbloch/mapshaper) [project](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-proj) feature.  
+Then we project the shapefile to [EPSG:4326](http://spatialreference.org/ref/epsg/wgs-84/) coordinates and export it to GeoJSON format using [mapshaper](https://github.com/mbloch/mapshaper) [project](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-proj) feature.  
 Finally we apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify/) on the GeoJSON with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
 
 > You can find the source code of the exportation process [here](gulfile.js).
