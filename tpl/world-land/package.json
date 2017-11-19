@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonepri/geo-map.git"
+    "url": "git+https://github.com/simonepri/geo-maps.git"
   },
   "author": {
     "name": "Simone Primarosa",
