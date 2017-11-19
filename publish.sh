@@ -1,18 +1,18 @@
 #!/bin/bash
 
-read -p "Are you sure to want to publish the packages? " -n 1 -r
-echo
-if [[ $REPLY =~ ^[Yy]$ ]]
+printf "Are you sure to want to publish the packages [N/y]? "
+read -r ans
+if [[ $ans  =~ ^[Yy]$ ]]
 then
   cd build
   for m in *; do
     cd $m
     for r in *; do
       cd $r
-      npm publish &
+      # npm publish &
       cd ..
-    fi
+    done
     cd ..
   done
-  wait
 fi
+wait
