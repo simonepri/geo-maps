@@ -4,7 +4,7 @@ printf "Are you sure to want to publish the packages [N/y]? "
 read -r ans
 if [[ $ans  =~ ^[Yy]$ ]]
 then
-  cd build
+  cd pkgs
   for m in *; do
     cd $m
     for r in *; do
