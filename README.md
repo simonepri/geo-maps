@@ -63,6 +63,7 @@ Click on badges to interact with them.
 <table>
   <tr>
     <th>Resolution</th>
+    <th>Preview</th>
     <th>Size</th>
     <th>GH Downloads</th>
     <th>NPM Downloads</th>
@@ -72,6 +73,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-1m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -98,6 +104,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-2m5/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-maritime">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-2m5/map.geo.json" alt="file size"/>
       </a>
@@ -118,6 +129,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-5m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -144,6 +160,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-10m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-maritime">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-10m/map.geo.json" alt="file size"/>
       </a>
@@ -164,6 +185,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-25m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -190,6 +216,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-50m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-maritime">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-50m/map.geo.json" alt="file size"/>
       </a>
@@ -210,6 +241,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-100m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -236,6 +272,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-250m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-maritime">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-250m/map.geo.json" alt="file size"/>
       </a>
@@ -256,6 +297,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-500m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -282,6 +328,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-1km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-maritime">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-1km/map.geo.json" alt="file size"/>
       </a>
@@ -302,6 +353,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-2km5/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -328,6 +384,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-5km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-maritime">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-maritime-5km/map.geo.json" alt="file size"/>
       </a>
@@ -348,6 +409,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-maritime">
         <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-maritime-10km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -384,6 +450,7 @@ Click on badges to interact with them.
 <table>
   <tr>
     <th>Resolution</th>
+    <th>Preview</th>
     <th>Size</th>
     <th>GH Downloads</th>
     <th>NPM Downloads</th>
@@ -393,6 +460,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-10m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -419,6 +491,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-2m5/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-coastline">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-2m5/map.geo.json" alt="file size"/>
       </a>
@@ -439,6 +516,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-5m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -465,6 +547,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-10m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-coastline">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-10m/map.geo.json" alt="file size"/>
       </a>
@@ -485,6 +572,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-25m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -511,6 +603,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-50m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-coastline">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-50m/map.geo.json" alt="file size"/>
       </a>
@@ -531,6 +628,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-100m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -557,6 +659,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-250m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-coastline">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-250m/map.geo.json" alt="file size"/>
       </a>
@@ -577,6 +684,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-500m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -603,6 +715,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-1km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-coastline">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-1km/map.geo.json" alt="file size"/>
       </a>
@@ -623,6 +740,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-2km5/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -649,6 +771,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-5km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#countries-coastline">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/countries-coastline-5km/map.geo.json" alt="file size"/>
       </a>
@@ -669,6 +796,11 @@ Click on badges to interact with them.
     <td>
       <a href="#countries-coastline">
         <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-10km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -704,6 +836,7 @@ Click on badges to interact with them.
 <table>
   <tr>
     <th>Resolution</th>
+    <th>Preview</th>
     <th>Size</th>
     <th>GH Downloads</th>
     <th>NPM Downloads</th>
@@ -713,6 +846,11 @@ Click on badges to interact with them.
     <td>
       <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-1m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-1m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -739,6 +877,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-2m5/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#world-land">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-2m5/map.geo.json" alt="file size"/>
       </a>
@@ -759,6 +902,11 @@ Click on badges to interact with them.
     <td>
       <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-5m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-5m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -785,6 +933,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-10m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#world-land">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-10m/map.geo.json" alt="file size"/>
       </a>
@@ -805,6 +958,11 @@ Click on badges to interact with them.
     <td>
       <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-25m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-25m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -831,6 +989,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-50m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#world-land">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-50m/map.geo.json" alt="file size"/>
       </a>
@@ -851,6 +1014,11 @@ Click on badges to interact with them.
     <td>
       <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-100m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-100m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -877,6 +1045,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-250m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#world-land">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-250m/map.geo.json" alt="file size"/>
       </a>
@@ -897,6 +1070,11 @@ Click on badges to interact with them.
     <td>
       <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-500m-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-500m/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -923,6 +1101,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-1km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#world-land">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-1km/map.geo.json" alt="file size"/>
       </a>
@@ -943,6 +1126,11 @@ Click on badges to interact with them.
     <td>
       <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-2km5-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-2km5/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
@@ -969,6 +1157,11 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-5km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
+      </a>
+    </td>
+    <td>
       <a href="#world-land">
         <img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-5km/map.geo.json" alt="file size"/>
       </a>
@@ -989,6 +1182,11 @@ Click on badges to interact with them.
     <td>
       <a href="#world-land">
         <img src="https://img.shields.io/badge/resolution-10km-f1c40f.svg" alt="map resolution"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/world-land-10km/map.geo.json">
+        <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
     <td>
