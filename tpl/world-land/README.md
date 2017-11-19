@@ -3,7 +3,7 @@
 </h1>
 <div align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome-geojson" /></a>
-  <a href="http://geojson.org/"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
+  <a href="https://github.com/simonepri/geo-maps/tree/rework#world-land"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
   <a href="https://github.com/simonepri/geo-maps"><img src="https://badges.herokuapp.com/size/npm/@geo-maps/world-land-{{resolution}}/world.geo.json" alt="map size" /></a>
   <a href="https://www.npmjs.com/package/@geo-maps/world-land-{{resolution}}"><img src="https://img.shields.io/npm/dm/@geo-maps/world-land-{{resolution}}.svg" alt="npm downloads" /></a>
   <a href="https://www.npmjs.com/package/@geo-maps/world-land-{{resolution}}"><img src="https://img.shields.io/npm/v/@geo-maps/world-land-{{resolution}}.svg" alt="npm version" /></a>
