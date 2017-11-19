@@ -9,7 +9,7 @@ then
     cd $m
     for r in *; do
       cd $r
-      npm publish &
+      npm publish --access public &
       cd ..
     done
     cd ..
