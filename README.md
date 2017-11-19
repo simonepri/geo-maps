@@ -54,7 +54,10 @@ in the original map extracted from OSM and the ones we produce.
 To export these maps we retrieve the list of countries with [osm-countries](https://github.com/simonepri/osm-countries) and for each country, we fetch its GeoJSON using
 [osm-geojson](https://github.com/simonepri/osm-geojson).  
 Then we collect all GeoJSONs in a single GeoJSON on which we apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify/) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.  
-You can see the source code [here](gulfile.js).
+You can find the source code of the exportation process [here](gulfile.js).  
+
+Below you can find references to all the resolutions available for this kind of map.
+Click on badges to interact with them.
 
 <table>
   <tr>
@@ -371,7 +374,10 @@ To export these maps we retrieve the list of countries with [osm-countries](http
 [osm-geojson](https://github.com/simonepri/osm-geojson).  
 Then we subtract from each country's GeoJSON the [world-land](#world-land)'s GeoJSON using the [clip feature](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-clip) of [mapshaper](https://github.com/mbloch/mapshaper).  
 Finally we collect all GeoJSONs in a single GeoJSON on which we apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify/) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.  
-You can see the source code [here](gulfile.js).
+You can find the source code of the exportation process [here](gulfile.js).  
+
+Below you can find references to all the resolutions available for this kind of map.
+Click on badges to interact with them.
 
 <table>
   <tr>
@@ -687,7 +693,10 @@ You can see the source code [here](gulfile.js).
 To export these maps we first download the simplified shapefile of land polygons from the [OpenStreetMapData](http://openstreetmapdata.com/data/land-polygons) page.  
 Then we project the shapefile to a lonlat coordinate system and export it to GeoJSON format using [mapshaper](https://github.com/mbloch/mapshaper) [project](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-proj) feature.  
 Finally we apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify/) on the GeoJSON with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
-You can see the source code [here](gulfile.js).
+You can find the source code of the exportation process [here](gulfile.js).  
+
+Below you can find references to all the resolutions available for this kind of map.
+Click on badges to interact with them.
 
 <table>
   <tr>
