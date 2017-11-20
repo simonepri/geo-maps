@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/simonepri/geo-countries"><img src="https://raw.githubusercontent.com/simonepri/geo-countries/master/media/geo-countries.jpg" alt="geo-countries" /></a>
+  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-countries/master/media/geo-countries.jpg" alt="geo-countries" /></a>
 </h1>
 <div align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome GeoJSON" /></a>
@@ -72,7 +72,7 @@ Name | Precision | Size
 
 I have planned to do this in the future if these maps will get enough interest
 from the community.  
-Please comment or react on this [issue](https://github.com/simonepri/geo-countries/issues/3)
+Please comment or react on this [issue](https://github.com/simonepri/geo-maps/issues/3)
 if you are interested.
 
 <hr></hr>
@@ -80,7 +80,7 @@ if you are interested.
 ## Authors
 * **Simone Primarosa** - [simonepri](https://github.com/simonepri)
 
-See also the list of [contributors](https://github.com/simonepri/geo-countries/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/simonepri/geo-maps/contributors) who participated in this project.
 
 ## License
 All data of this project is licensed under the [Open Data Commons Public Domain Dedication and License](https://opendatacommons.org/licenses/odbl/1.0/) as stated in [OpenStreetMap License](http://www.openstreetmap.org/copyright)
