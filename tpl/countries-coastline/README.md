@@ -1,10 +1,10 @@
 <h1 align="center">
-  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps.jpg" alt="geo-maps" /></a>
+  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/media/geo-maps.jpg" alt="geo-maps" /></a>
 </h1>
 <p align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome-geojson" /></a>
-  <a href="https://github.com/simonepri/geo-maps/tree/rework#countries-coastline"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
-  <a href="https://github.com/simonepri/geo-maps/tree/rework#countries-coastline"><img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-{{resolution}}/map.geo.json" alt="map size" /></a>
+  <a href="https://github.com/simonepri/geo-maps#countries-coastline"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
+  <a href="https://github.com/simonepri/geo-maps#countries-coastline"><img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/countries-coastline-{{resolution}}/map.geo.json" alt="map size" /></a>
   <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-{{resolution}}"><img src="https://img.shields.io/npm/dm/@geo-maps/countries-coastline-{{resolution}}.svg" alt="npm downloads" /></a>
   <a href="https://www.npmjs.com/package/@geo-maps/countries-coastline-{{resolution}}"><img src="https://img.shields.io/npm/v/@geo-maps/countries-coastline-{{resolution}}.svg" alt="npm version" /></a>
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/format-GeoJSON-e67e22.svg" alt="maps format" /></a>
@@ -28,10 +28,10 @@ of **{{resolution}}**.
 
 <p align="center">
   <a alt="World Boundaries" href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-{{resolution}}/map.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps-countries-coastline-shape.png" width ="49%"/>
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/media/geo-maps-countries-coastline-shape.png" width ="49%"/>
   </a>
   <a alt="World Boundaries" href="http://geojson.io/#data=data:text/x-url,https://unpkg.com/@geo-maps/countries-coastline-{{resolution}}/map.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/rework/media/geo-maps-countries-coastline-hover.png" width ="49%"/>
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/media/geo-maps-countries-coastline-hover.png" width ="49%"/>
   </a>
 </center>
 
