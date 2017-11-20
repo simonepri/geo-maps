@@ -48,7 +48,10 @@ Feel free to propose new kind of maps! 🎉
 Below you can find different kind of maps divided by type and exported with
 different precisions.  
 Please note that for precision we mean the absolute error between the polygons
-in the original map extracted from OSM and the ones we produce.
+in the original map extracted from OSM and the ones we produce.  
+
+In case you are using these maps for some projects, let [us know](https://github.com/simonepri/geo-maps/issues)!  
+We will love to see what you have built!
 
 <a name="countries-maritime"></a>
 ## Map of countries' political maritime boundaries
