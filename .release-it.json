@@ -1,0 +1,12 @@
+{
+  "src": {
+    "tagName": "v%s"
+  },
+  "github": {
+    "release": true,
+    "assets": "dist/*.geo.json"
+  },
+  "nmp": {
+    "publish": false
+  }
+}

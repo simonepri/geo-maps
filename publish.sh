@@ -1,10 +1,18 @@
 #!/bin/bash
-cd geojson/world/maritime
-for file in *; do
-  cd $file
-  if [ $file != 'orig' ]; then
-    npm publish &
-  fi
-  cd ..
-done
+
+printf "Are you sure to want to publish the packages [N/y]? "
+read -r ans
+if [[ $ans  =~ ^[Yy]$ ]]
+then
+  cd pkgs
+  for m in *; do
+    cd $m
+    for r in *; do
+      cd $r
+      npm publish --access public &
+      cd ..
+    done
+    cd ..
+  done
+fi
 wait
