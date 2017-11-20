@@ -19,36 +19,5 @@
     "url": "https://github.com/simonepri/geo-maps/issues"
   },
   "homepage": "https://github.com/simonepri/geo-maps#readme",
-  "keywords": [
-    "world",
-    "earth",
-    "sea",
-    "map",
-    "maps",
-    "political",
-    "maritime",
-    "coastline",
-    "boundaries",
-    "boundary",
-    "bounds",
-    "bound",
-    "confine",
-    "confines",
-    "coordinate",
-    "coordinates",
-    "country",
-    "get",
-    "code",
-    "countries",
-    "administration",
-    "area",
-    "which",
-    "alpha-3",
-    "ISO 3166-1",
-    "OSM",
-    "geo",
-    "GeoJSON",
-    "OpenStreetMap",
-    "NaturalEarth"
-  ]
+  "keywords": []
 }
