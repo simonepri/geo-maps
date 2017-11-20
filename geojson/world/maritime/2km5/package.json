@@ -1,6 +1,6 @@
 {
   "name": "world-countries-boundaries-2km5",
-  "version": "1.0.15",
+  "version": "1.1.0",
   "description": "GeoJSON political boundaries of the entire world with 2.5km precision.",
   "main": "index.js",
   "scripts": {
