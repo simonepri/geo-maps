@@ -1208,6 +1208,9 @@ Click on badges to interact with them.
   </tr>
 </table>
 
+## Conversion to other format
+If you need to convert maps in any of Shapefile, TopoJSON, CSV, SVG format you can click on the preview badge of the map of your interest and use the mapshaper's web interface to export the map in the format of your need.
+
 ## Authors
 * **Simone Primarosa** - [simonepri](https://github.com/simonepri)
 
