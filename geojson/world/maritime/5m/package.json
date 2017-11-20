@@ -1,6 +1,6 @@
 {
   "name": "world-countries-boundaries-5m",
-  "version": "1.0.11",
+  "version": "1.0.15",
   "description": "GeoJSON political boundaries of the entire world with 5m precision.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonepri/geo-countries.git"
+    "url": "git+https://github.com/simonepri/geo-maps.git"
   },
   "author": {
     "name": "Simone Primarosa",
@@ -16,9 +16,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simonepri/geo-countries/issues"
+    "url": "https://github.com/simonepri/geo-maps/issues"
   },
-  "homepage": "https://github.com/simonepri/geo-countries/tree/master/geojson/5m",
+  "homepage": "https://github.com/simonepri/geo-maps#readme",
   "keywords": [
     "world",
     "earth",

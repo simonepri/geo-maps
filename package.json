@@ -1,6 +1,6 @@
 {
   "name": "geo-countries",
-  "version": "1.0.0",
+  "version": "1.0.15",
   "description": "GeoJSON political boundaries of the entire world.",
   "main": "index.js",
   "private": true,
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonepri/geo-countries.git"
+    "url": "git+https://github.com/simonepri/geo-maps.git"
   },
   "author": {
     "name": "Simone Primarosa",
@@ -34,9 +34,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simonepri/geo-countries/issues"
+    "url": "https://github.com/simonepri/geo-maps/issues"
   },
-  "homepage": "https://github.com/simonepri/geo-countries#readme",
+  "homepage": "https://github.com/simonepri/geo-maps#readme",
   "xo": {
     "space": true
   }
