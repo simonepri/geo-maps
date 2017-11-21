@@ -469,7 +469,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-10m/map.geo.json">
+      <a href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/countries-coastline-1m/map.geo.json">
         <img src="https://img.shields.io/badge/preview-mapshaper-1abc9c.svg" alt="map preview"/>
       </a>
     </td>
