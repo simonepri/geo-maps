@@ -40,7 +40,7 @@ You can find more maps below.
 
 ## Background
 The purpose of this project is to **programmatically** extract maps from open
-databases like [OpenStreetMap](www.openstreetmap.org) providing you
+databases like [OpenStreetMap](https://www.openstreetmap.org) providing you
 with a ready to use GeoJSON map that fits your needs.  
 Feel free to propose new kind of maps! 🎉  
 
