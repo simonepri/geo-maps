@@ -25,7 +25,7 @@ databases like [OpenStreetMap](https://www.openstreetmap.org) providing you
 with a ready to use GeoJSON map that fits your needs.  
 Feel free to [propose](https://github.com/simonepri/geo-maps/issues) new kinds of maps! 🎉  
 
-Do you believe that this is cool? If so, support us with a ⭐️!
+Do you believe that this is cool? If so, <a href="#start-of-content">support us with a ⭐️</a>!
 
 ## Synopsis
 
