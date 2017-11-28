@@ -23,7 +23,8 @@ jspm_packages/
 .npm
 
 # Folders
-tmp
-build
-dist
-pkgs
+/tmp/
+/build/
+/dist/
+/pkgs/
+/maps/
