@@ -243,31 +243,12 @@ speed reasons).
 </p>
 
 ## Development
-PRs are REALLY welcome.  
+PRs are **REALLY** welcome.  
 Scripts used to build maps are all contained in the [gulp](gulp/) folder.  
 
-Clone repo:
-```bash
-$ git clone https://github.com/simonepri/geo-maps.git
-$ cd geo-maps/
-```
-
-Install dependencies:
-```bash
-$ npm i
-```
-
-Development process:
-```bash
-$ npm run test
-$ npm run build
-$ npm run gulp previews
-$ npm run gulp artifacts
-$ npm run gulp packages
-```
-
 Release process:
-```bash
+```
+$ npm i
 $ npm run test
 $ npm run build
 $ npm run previews
