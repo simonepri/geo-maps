@@ -11,6 +11,8 @@
 ### Generation process
 TODO
 
+> You can find the source code of the exportation process [here](gulp/maps/earth-seas.js).
+
 ### Getting started
 TODO
 

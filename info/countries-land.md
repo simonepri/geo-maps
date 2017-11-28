@@ -11,10 +11,10 @@
 ### Generation process
 TODO
 
+> You can find the source code of the exportation process [here](gulp/maps/countries-land.js).
+
 ### Getting started
 TODO
-
-> You can find the source code of the exportation process [here](gulp/maps/countries-land.js).
 
 ### Downloads
 Below you can find the download to all the resolutions available for this kind of map.  
