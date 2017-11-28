@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "ascii-progress": "^1.0.5",
+    "app-root-path": "^2.0.1",
     "del": "^3.0.0",
     "download": "^6.2.5",
     "fs-extra": "^4.0.2",
@@ -15,11 +15,14 @@
     "osm-countries": "^1.0.1",
     "osm-geojson": "^0.6.0",
     "pify": "^3.0.0",
+    "progress": "^2.0.0",
     "project-version": "^1.0.0",
     "random-int": "^1.0.0",
     "release-it": "^4.4.1",
     "replace-in-files": "^1.1.0",
     "request": "^2.83.0",
+    "require-dir": "^0.3.2",
+    "undertaker-forward-reference": "^1.0.2",
     "wait-then": "^0.1.2",
     "xo": "*"
   },
@@ -27,11 +30,12 @@
     "node": ">=4"
   },
   "scripts": {
-    "gulp": "gulp",
     "test": "xo",
-    "build": "gulp build",
-    "release": "gulp dist&& release-it",
-    "publish": "gulp pkgs&& bash publish.sh"
+    "gulp": "node --expose-gc --max-old-space-size=8192 ./node_modules/.bin/gulp",
+    "build": "npm run gulp build",
+    "previews": "npm run gulp previews",
+    "release": "npm run gulp artifacts&& release-it",
+    "publish": "npm run gulp packages&& bash publish.sh"
   },
   "repository": {
     "type": "git",
