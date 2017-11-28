@@ -246,7 +246,7 @@ speed reasons).
 PRs are **REALLY** welcome.  
 Scripts used to build maps are all contained in the [gulp](gulp/) folder.  
 
-Release process:
+To release the project the following actions needs to be executed from the root.
 ```
 $ npm i
 $ npm run test
