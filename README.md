@@ -54,6 +54,9 @@ Preview | Name | Short Description | Info Page
 <a alt="see earth-lakes on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lakes.geo.json"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lakes-hover.png" height ="100px"/></a> | **earth-lakes** | Earth's lakes | <a alt="See earth-lakes details" href="info/earth-lakes.md"><img src="media/details-button.png" height ="50px"/></a>
 <a alt="see earth-rivers on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-rivers.geo.json"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-rivers-hover.png" height ="100px"/></a> | **earth-rivers** | Earth's rivers | <a alt="See earth-rivers details" href="info/earth-rivers.md"><img src="media/details-button.png" height ="50px"/></a>
 
+### Conversion to other formats
+If you need to convert maps in any of Shapefile, TopoJSON, CSV, SVG formats you can use the [mapshaper's web interface](mapshaper.org) to export the map in the format of your need.  
+
 ## Development
 PRs are **REALLY** welcome.  
 Scripts used to build maps are all contained in the [gulp](gulp/) folder.  

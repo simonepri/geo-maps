@@ -393,6 +393,3 @@ Click on badges to interact with them.
     </td>
   </tr>
 </table>
-
-### Conversion to other formats
-If you need to convert maps in any of Shapefile, TopoJSON, CSV, SVG formats you can click on the preview badge of the map of your interest and use the mapshaper's web interface to export the map in the format of your need.
