@@ -38,6 +38,16 @@ Please **click on the details button** below each map to find more usage informa
 In case you are using these maps for some projects, let [us know](https://github.com/simonepri/geo-maps/issues)!  
 We will love to see what you have built!
 
+## Table of maps
+* [countries-land](#countries-land): Countries' political land borders
+* [countries-coastline](#countries-coastline): Countries' political coastline borders
+* [countries-maritime](#countries-maritime): Countries' political maritime borders
+* [earth-lands](#earth-lands): Earth's lands
+* [earth-waterbodies](#earth-waterbodies): Earth's waterbodies
+* [earth-seas](#earth-seas): Earth's seas and oceans
+* [earth-lakes](#earth-lakes): Earth's lakes
+* [earth-rivers](#earth-rivers): Earth's rivers
+
 <a name="countries-land"></a>
 
 ## Map of countries' political land borders
