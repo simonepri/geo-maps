@@ -53,10 +53,10 @@ We will love to see what you have built!
 ## Map of countries' political land borders
 
 <p align="center">
-  <a alt="see countries-land on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/countries-land.geo.json">
+  <a alt="see countries-land on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-land.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-land-shape.png" width ="49%"/>
   </a>
-  <a alt="see countries-land on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/countries-land.geo.json">
+  <a alt="see countries-land on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-land.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-land-hover.png" width ="49%"/>
   </a>
 </p>
@@ -77,10 +77,10 @@ speed reasons).
 ## Map of countries' political coastline borders
 
 <p align="center">
-  <a alt="see countries-coastline on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/countries-coastline.geo.json">
+  <a alt="see countries-coastline on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-coastline.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-coastline-shape.png" width ="49%"/>
   </a>
-  <a alt="see countries-coastline on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/countries-coastline.geo.json">
+  <a alt="see countries-coastline on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-coastline.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-coastline-hover.png" width ="49%"/>
   </a>
 </p>
@@ -101,10 +101,10 @@ speed reasons).
 ## Map of countries' political maritime borders
 
 <p align="center">
-  <a alt="see countries-maritime on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/countries-maritime.geo.json">
+  <a alt="see countries-maritime on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-maritime.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-maritime-shape.png" width ="49%"/>
   </a>
-  <a alt="see countries-maritime on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/countries-maritime.geo.json">
+  <a alt="see countries-maritime on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-maritime.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-maritime-hover.png" width ="49%"/>
   </a>
 </p>
@@ -127,10 +127,10 @@ speed reasons).
 ## Map of earth's lands
 
 <p align="center">
-  <a alt="see earth-lands on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-lands.geo.json">
+  <a alt="see earth-lands on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lands.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lands-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-lands on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-lands.geo.json">
+  <a alt="see earth-lands on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lands.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lands-hover.png" width ="49%"/>
   </a>
 </p>
@@ -151,10 +151,10 @@ speed reasons).
 ## Map of earth's waterbodies
 
 <p align="center">
-  <a alt="see earth-waterbodies on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-waterbodies.geo.json">
+  <a alt="see earth-waterbodies on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-waterbodies.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-waterbodies-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-waterbodies on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-waterbodies.geo.json">
+  <a alt="see earth-waterbodies on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-waterbodies.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-waterbodies-hover.png" width ="49%"/>
   </a>
 </p>
@@ -175,10 +175,10 @@ speed reasons).
 ## Map of earth's seas
 
 <p align="center">
-  <a alt="see earth-seas on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-seas.geo.json">
+  <a alt="see earth-seas on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-seas.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-seas-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-seas on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-seas.geo.json">
+  <a alt="see earth-seas on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-seas.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-seas-hover.png" width ="49%"/>
   </a>
 </p>
@@ -199,10 +199,10 @@ speed reasons).
 ## Map of earth's lakes
 
 <p align="center">
-  <a alt="see earth-lakes on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-lakes.geo.json">
+  <a alt="see earth-lakes on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lakes.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lakes-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-lakes on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-lakes.geo.json">
+  <a alt="see earth-lakes on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lakes.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lakes-hover.png" width ="49%"/>
   </a>
 </p>
@@ -223,10 +223,10 @@ speed reasons).
 ## Map of earth's rivers
 
 <p align="center">
-  <a alt="see earth-rivers on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-rivers.geo.json">
+  <a alt="see earth-rivers on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-rivers.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-rivers-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-rivers on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-rivers.geo.json">
+  <a alt="see earth-rivers on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-rivers.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-rivers-hover.png" width ="49%"/>
   </a>
 </p>

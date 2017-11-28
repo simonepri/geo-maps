@@ -1,9 +1,9 @@
 ## Map of earth's lands
 <p align="center">
-  <a alt="see earth-lands on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-lands.geo.json">
+  <a alt="see earth-lands on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lands.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lands-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-lands on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-lands.geo.json">
+  <a alt="see earth-lands on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lands.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lands-hover.png" width ="49%"/>
   </a>
 </p>

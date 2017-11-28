@@ -10,5 +10,5 @@ module.exports = {
   pkgsDir: root.resolve('pkgs'),
 
   tplDir: root.resolve('tpls'),
-  prevDir: root.resolve('preview')
+  prevDir: root.resolve('previews')
 };

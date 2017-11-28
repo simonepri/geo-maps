@@ -1,9 +1,9 @@
 ## Map of earth's coastlines
 <p align="center">
-  <a alt="see earth-coastlines on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-coastlines.geo.json">
+  <a alt="see earth-coastlines on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-coastlines.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-coastlines-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-coastlines on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-coastlines.geo.json">
+  <a alt="see earth-coastlines on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-coastlines.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-coastlines-hover.png" width ="49%"/>
   </a>
 </p>

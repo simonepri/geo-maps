@@ -1,9 +1,9 @@
 ## Map of earth's seas
 <p align="center">
-  <a alt="see earth-seas on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-seas.geo.json">
+  <a alt="see earth-seas on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-seas.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-seas-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-seas on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/preview/earth-seas.geo.json">
+  <a alt="see earth-seas on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-seas.geo.json">
     <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-seas-hover.png" width ="49%"/>
   </a>
 </p>
