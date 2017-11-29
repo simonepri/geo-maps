@@ -29,7 +29,7 @@ gulp.task('earth-rivers-generate', async () => {
 
   const cmd = '-i ' + shpRiversPath + ' ' +
     '-filter-fields ' +
-    '-proj +init=EPSG:4326 ' +
+    '-proj +init=epsg:4326 ' +
     '-dissolve ' +
     '-o precision=0.000001 format=geojson ' + riversPath + ' ' +
     '-verbose';

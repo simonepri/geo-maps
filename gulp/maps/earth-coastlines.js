@@ -29,7 +29,7 @@ gulp.task('earth-coastlines-generate', async () => {
 
   const cmd = '-i ' + shpLandPath + ' ' +
     '-filter-fields ' +
-    '-proj +init=EPSG:4326 ' +
+    '-proj +init=epsg:4326 ' +
     '-dissolve ' +
     '-o precision=0.000001 format=geojson ' + coastlinesPath + ' ' +
     '-verbose';
