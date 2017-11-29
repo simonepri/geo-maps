@@ -30,7 +30,7 @@ gulp.task('simplify', async () => {
       await fs.ensureDir(outMapDir);
 
       const cmd = '-i ' + mapPath + ' ' +
-        '-simplify keep-shapes interval=' + sizes[size] + ' ' +
+        '-simplify rdp interval=' + sizes[size] + ' ' +
         '-filter remove-empty ' +
         '-o precision=' + precisions[size] + ' format=geojson ' + outMapPath;
       // eslint-disable-next-line no-await-in-loop
