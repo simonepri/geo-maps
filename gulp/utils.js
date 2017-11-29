@@ -14,7 +14,7 @@ function downloadProgress(name) {
     complete: '=',
     incomplete: ' ',
     width: 20,
-    total: 0,
+    total: 1,
     clear: true
   };
   const bar = new ProgressBar('downloading ' + name + ' [:bar] :percent :elapseds speed: :KBpsKB/s eta: :etas', barOpts);
