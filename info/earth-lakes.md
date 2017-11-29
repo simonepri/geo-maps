@@ -9,12 +9,11 @@
 </p>
 
 ### Generation process
-TODO
+To export these maps we first download the simplified shapefile of lakes polygons from the [OpenStreetMapData](http://openstreetmapdata.com/data/water-reduced-polygons) page.  
+Then we project the shapefile to [EPSG:4326](http://spatialreference.org/ref/epsg/wgs-84/) coordinates using [mapshaper](https://github.com/mbloch/mapshaper)'s [project](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-proj) feature.  
+Finally we apply the [Douglas-Peucker algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm#Algorithm) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
 
 > You can find the source code of the exportation process [here](gulp/maps/earth-lakes.js).
-
-### Getting started
-TODO
 
 Below you can find references to all the resolutions available for this kind of map.  
 Click on badges to interact with them.

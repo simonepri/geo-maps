@@ -11,12 +11,9 @@
 ### Generation process
 To export these maps we retrieve the list of countries with [osm-countries](https://github.com/simonepri/osm-countries) and for each country, we fetch its GeoJSON using
 [osm-geojson](https://github.com/simonepri/osm-geojson).  
-Then we collect all GeoJSONs in a single GeoJSON on which we apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify/) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
+Then we collect all GeoJSONs in a single GeoJSON on which we apply the [Douglas-Peucker algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm#Algorithm) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
 
 > You can find the source code of the exportation process [here](gulp/maps/countries-maritime.js).
-
-### Getting started
-TODO
 
 ### Downloads
 Below you can find the download to all the resolutions available for this kind of map.  

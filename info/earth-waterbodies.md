@@ -9,12 +9,11 @@
 </p>
 
 ### Generation process
-TODO
+To export these maps we first wait [earth-lakes](./earth-lakes.md), [earth-rivers](./earth-rivers.md) and [earth-seas](./earth-seas.md) maps to be generated.  
+Then we merge all the maps together maps using [mapshaper](https://github.com/mbloch/mapshaper)'s [merge](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-merge-layers) feature.  
+Finally we apply the [Douglas-Peucker algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm#Algorithm) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
 
 > You can find the source code of the exportation process [here](gulp/maps/earth-waterbodies.js).
-
-### Getting started
-TODO
 
 Below you can find references to all the resolutions available for this kind of map.  
 Click on badges to interact with them.

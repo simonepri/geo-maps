@@ -9,14 +9,11 @@
 </p>
 
 ### Generation process
-To export these maps we first download the simplified shapefile of lands polygons from the [OpenStreetMapData](http://openstreetmapdata.com/data/land-polygons) page.  
-Then we project the shapefile to [EPSG:4326](http://spatialreference.org/ref/epsg/wgs-84/) coordinates and export it to GeoJSON format using [mapshaper](https://github.com/mbloch/mapshaper) [project](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-proj) feature.  
-Finally we apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify/) on the GeoJSON with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
+To export these maps we first wait [earth-coastlines](./earth-coastlines.md), [earth-lakes](./earth-lakes.md) and [earth-rivers](./earth-rivers.md) maps to be generated.  
+Then we substract from the [earth-coastlines](./earth-coastlines.md) map the [earth-lakes](./earth-lakes.md) and [earth-rivers](./earth-rivers.md) maps using [mapshaper](https://github.com/mbloch/mapshaper)'s [erase](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-erase) feature.  
+Finally we apply the [Douglas-Peucker algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm#Algorithm) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
 
 > You can find the source code of the exportation process [here](gulp/maps/earth-lands.js).
-
-### Getting started
-TODO
 
 Below you can find references to all the resolutions available for this kind of map.  
 Click on badges to interact with them.

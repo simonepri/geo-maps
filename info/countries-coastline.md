@@ -9,15 +9,11 @@
 </p>
 
 ### Generation process
-To export these maps we retrieve the list of countries with [osm-countries](https://github.com/simonepri/osm-countries) and for each country, we fetch its GeoJSON using
-[osm-geojson](https://github.com/simonepri/osm-geojson).  
-Then we subtract from each country's GeoJSON the [world-lands](#world-lands)'s GeoJSON using the [clip feature](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-clip) of [mapshaper](https://github.com/mbloch/mapshaper).  
-Finally we collect all GeoJSONs in a single GeoJSON on which we apply the [Visvalingam algorithm](https://bost.ocks.org/mike/simplify/) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
+To export these maps we first wait [countries-maritime](./countries-maritime.md) and [earth-coastlines](./earth-coastlines.md) maps to be generated.  
+Then we clip from [countries-maritime](./countries-maritime.md) the [earth-coastlines](./earth-coastlines.md) using [mapshaper](https://github.com/mbloch/mapshaper)'s [clip](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-clip) feature.  
+Finally we apply the [Douglas-Peucker algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm#Algorithm) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
 
 > You can find the source code of the exportation process [here](gulp/maps/countries-coastline.js).
-
-### Getting started
-TODO
 
 ### Downloads
 Below you can find the download to all the resolutions available for this kind of map.  

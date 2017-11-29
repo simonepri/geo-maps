@@ -9,12 +9,11 @@
 </p>
 
 ### Generation process
-TODO
+To export these maps we first wait [countries-maritime](./countries-maritime.md) and [earth-lands](./earth-lands.md) maps to be generated.  
+Then we clip from [countries-maritime](./countries-maritime.md) the [earth-lands](./earth-lands.md) using [mapshaper](https://github.com/mbloch/mapshaper)'s [clip](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-clip) feature.  
+Finally we apply the [Douglas-Peucker algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm#Algorithm) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
 
 > You can find the source code of the exportation process [here](gulp/maps/countries-land.js).
-
-### Getting started
-TODO
 
 ### Downloads
 Below you can find the download to all the resolutions available for this kind of map.  

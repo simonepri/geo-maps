@@ -9,12 +9,12 @@
 </p>
 
 ### Generation process
-TODO
+To export these maps we first wait [earth-coastlines](./earth-coastlines.md) map to be generated.  
+Then we create a rectangle of the bounds of the earth using [mapshaper](https://github.com/mbloch/mapshaper) [rectangle](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-rectangle)
+feature and then we substract from the rectangle the [earth-coastlines](./earth-coastlines.md) map using [mapshaper](https://github.com/mbloch/mapshaper)'s [erase](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-erase) feature.  
+Finally we apply the [Douglas-Peucker algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm#Algorithm) with different resolutions using [mapshaper](https://github.com/mbloch/mapshaper)'s [simplify](https://github.com/mbloch/mapshaper/wiki/Command-Reference#-simplify) feature.
 
 > You can find the source code of the exportation process [here](gulp/maps/earth-seas.js).
-
-### Getting started
-TODO
 
 Below you can find references to all the resolutions available for this kind of map.  
 Click on badges to interact with them.
