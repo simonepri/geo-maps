@@ -30,7 +30,7 @@ gulp.task('earth-lakes-generate', async () => {
   const cmd = '-i ' + shpLakesPath + ' ' +
     '-filter-fields ' +
     '-proj +init=EPSG:4326 ' +
-    /* '-dissolve ' + */
+    '-dissolve ' +
     '-o precision=0.000001 format=geojson ' + lakesPath + ' ' +
     '-verbose';
   await utils.mapshaperCmd(cmd);
