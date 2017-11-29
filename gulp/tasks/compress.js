@@ -22,7 +22,7 @@ gulp.task('simplify', async () => {
     const bar = utils.processProgress(map, Object.keys(sizes).length);
 
     for (const size of Object.keys(sizes)) {
-      const mapPath = path.join(folders.tmpDir, map + '-presimplified.geo.json');
+      const mapPath = path.join(folders.mapsDir, map + '.geo.json');
       const outMapDir = path.join(folders.buildDir, map, size);
       const outMapPath = path.join(outMapDir, 'map.geo.json');
 
