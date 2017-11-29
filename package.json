@@ -31,7 +31,7 @@
   },
   "scripts": {
     "test": "xo",
-    "gulp": "node --expose-gc --max-old-space-size=8192 ./node_modules/.bin/gulp",
+    "gulp": "node --expose-gc --max-old-space-size=65536 ./node_modules/.bin/gulp",
     "build": "npm run gulp build",
     "previews": "npm run gulp previews",
     "release": "npm run gulp artifacts&& release-it",
