@@ -35,7 +35,7 @@ gulp.task('npm', async () => {
       gutil.log('Publishing @geo-maps/' + [map, size].join('-'));
 
       const packageDir = path.join(mapDir, size);
-      const cmd = 'npm pack --access public';
+      const cmd = 'npm publish --access public';
       const proc = execa.shell(cmd, {cwd: packageDir});
       proc.stdout.pipe(process.stdout);
       process.stdin.pipe(proc.stdin);
