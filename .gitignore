@@ -28,3 +28,6 @@ jspm_packages/
 /dist/
 /pkgs/
 /maps/
+
+# OS
+.DS_Store
