@@ -23,20 +23,21 @@ gulp.task('packages', async () => {
   await fs.ensureDir(folders.pkgsDir);
   const npmDir = path.join(folders.pkgsDir, 'npm');
 
-  await fs.copy(folders.buildDir, npmDir);
-
   const managers = ['npm'];
 
   for (const manager of managers) {
     for (const map of maps) {
-      const bar = utils.processProgress(map, Object.keys(sizes).length);
+      const bar = utils.processProgress([manager, map].join('-'), Object.keys(sizes).length);
 
       const tplMapDir = path.join(folders.tplDir, manager, map);
       for (const size of Object.keys(sizes)) {
+        const buildMapDir = path.join(folders.buildDir, map, size);
         const outMapDir = path.join(npmDir, map, size);
 
         // eslint-disable-next-line no-await-in-loop
         await fs.copy(tplMapDir, outMapDir);
+        // eslint-disable-next-line no-await-in-loop
+        await fs.copy(buildMapDir, outMapDir);
 
         const replOpts = {
           to: size,
@@ -54,7 +55,7 @@ gulp.task('packages', async () => {
         // eslint-disable-next-line no-await-in-loop
         await replace(replOpts);
 
-        bar();
+        bar.tick();
       }
     }
   }

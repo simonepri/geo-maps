@@ -17,7 +17,7 @@ const maps = require('../maps');
  * Generates one map for each different resolution available of the maps in the
  * maps folder.
  */
-gulp.task('simplify', async () => {
+gulp.task('compress', async () => {
   for (const map of maps) {
     const bar = utils.processProgress(map, Object.keys(sizes).length);
 
@@ -40,10 +40,3 @@ gulp.task('simplify', async () => {
     }
   }
 });
-
-/**
- * Execute the whole compress process.
- */
-gulp.task('compress', gulp.series(
-  'simplify',
-));
