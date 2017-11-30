@@ -1,4 +1,5 @@
 #npm
+.tgz
 .npmignore
 .npmrc
 package-lock.json
