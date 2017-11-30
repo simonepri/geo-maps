@@ -17,6 +17,7 @@ Finally we apply the [Douglas-Peucker algorithm](https://en.wikipedia.org/wiki/R
 
 > You can find the source code of the exportation process [here](gulp/maps/earth-seas.js).
 
+### Downloads
 Below you can find references to all the resolutions available for this kind of map.  
 Click on badges to interact with them.
 
