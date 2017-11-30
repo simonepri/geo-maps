@@ -1,0 +1,40 @@
+{
+  "name": "@geo-maps/earth-rivers-{{resolution}}",
+  "version": "{{version}}",
+  "description": "High Quality GeoJSON map of earth's rivers with {{resolution}} resolution.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonepri/geo-maps.git"
+  },
+  "author": {
+    "name": "Simone Primarosa",
+    "email": "simone.pri@hotmail.it"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonepri/geo-maps/issues"
+  },
+  "homepage": "https://github.com/simonepri/geo-maps#readme",
+  "keywords": [
+    "geo-maps",
+    "earth-rivers",
+    "world-rivers",
+    "world",
+    "earth",
+    "river",
+    "rivers",
+    "map",
+    "maps",
+    "borders",
+    "boundary",
+    "bounds",
+    "bound",
+    "confine",
+    "confines",
+    "OSM",
+    "GeoJSON",
+    "OpenStreetMap",
+    "NaturalEarth"
+  ]
+}

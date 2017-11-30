@@ -1,0 +1,49 @@
+{
+  "name": "@geo-maps/countries-land-{{resolution}}",
+  "version": "{{version}}",
+  "description": "High Quality GeoJSON map of countries' political land borders with {{resolution}} resolution.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonepri/geo-maps.git"
+  },
+  "author": {
+    "name": "Simone Primarosa",
+    "email": "simone.pri@hotmail.it"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonepri/geo-maps/issues"
+  },
+  "homepage": "https://github.com/simonepri/geo-maps#readme",
+  "keywords": [
+    "geo-maps",
+    "countries-land",
+    "world",
+    "earth",
+    "country",
+    "countries",
+    "map",
+    "maps",
+    "political",
+    "administration",
+    "land",
+    "lands",
+    "maritime",
+    "maritimes",
+    "coastline",
+    "coastlines",
+    "borders",
+    "boundary",
+    "bounds",
+    "bound",
+    "confine",
+    "confines",
+    "coordinate",
+    "coordinates",
+    "OSM",
+    "GeoJSON",
+    "OpenStreetMap",
+    "NaturalEarth"
+  ]
+}
