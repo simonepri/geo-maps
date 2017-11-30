@@ -17,13 +17,10 @@
     "pify": "^3.0.0",
     "progress": "^2.0.0",
     "project-version": "^1.0.0",
-    "random-int": "^1.0.0",
     "release-it": "^4.4.1",
     "replace-in-files": "^1.1.0",
-    "request": "^2.83.0",
     "require-dir": "^0.3.2",
     "undertaker-forward-reference": "^1.0.2",
-    "wait-then": "^0.1.2",
     "xo": "*"
   },
   "engines": {
