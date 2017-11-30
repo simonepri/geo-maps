@@ -1,3 +1,4 @@
+<a name="earth-coastlines"></a>
 ## Map of earth's coastlines
 <p align="center">
   <a alt="see earth-coastlines on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-coastlines.geo.json">

@@ -1,3 +1,4 @@
+<a name="earth-lands"></a>
 ## Map of earth's lands
 <p align="center">
   <a alt="see earth-lands on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-lands.geo.json">

@@ -1,3 +1,4 @@
+<a name="countries-coastline"></a>
 ## Map of countries' political coastline borders
 <p align="center">
   <a alt="see countries-coastline on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/countries-coastline.geo.json">

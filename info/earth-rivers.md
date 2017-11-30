@@ -1,3 +1,4 @@
+<a name="earth-rivers"></a>
 ## Map of earth's rivers
 <p align="center">
   <a alt="see earth-rivers on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-rivers.geo.json">

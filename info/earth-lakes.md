@@ -1,3 +1,4 @@
+<a name="earth-lakes"></a>
 ## Map of earth's lakes
 <p align="center">
   <a alt="see earth-lakes on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-lakes.geo.json">

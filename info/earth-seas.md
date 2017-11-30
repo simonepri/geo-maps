@@ -1,3 +1,4 @@
+<a name="earth-seas"></a>
 ## Map of earth's seas
 <p align="center">
   <a alt="see earth-seas on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-seas.geo.json">

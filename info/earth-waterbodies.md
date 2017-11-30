@@ -1,3 +1,4 @@
+<a name="earth-waterbodies"></a>
 ## Map of earth's waterbodies
 <p align="center">
   <a alt="see earth-waterbodies on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-waterbodies.geo.json">
