@@ -45,7 +45,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-1m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-1m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-1m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -73,7 +73,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-2m5.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-2m5.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-2m5.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -101,7 +101,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-5m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-5m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-5m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -129,7 +129,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-10m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-10m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-10m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -157,7 +157,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-25m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-25m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-25m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -185,7 +185,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-50m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-50m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-50m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -213,7 +213,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-100m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-100m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-100m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -241,7 +241,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-250m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-250m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-250m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -269,7 +269,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-500m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-500m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-500m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -297,7 +297,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-1km.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-1km.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-1km.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -325,7 +325,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-2km5.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-2km5.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-2km5.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -353,7 +353,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-5km.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-5km.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-5km.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -381,7 +381,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.5.0/countries-land-10km.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/countries-land-10km.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/countries-land-10km.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
