@@ -15,12 +15,9 @@ const prevs = {
   'earth-rivers': '2km5',
   'earth-lakes': '5km',
   'earth-seas': '5km',
-  'earth-waterbodies': '10km',
-  'earth-lands': '10km',
 
   'countries-maritime': '5km',
-  'countries-coastline': '5km',
-  'countries-land': '10km'
+  'countries-coastline': '5km'
 };
 
 /**
@@ -34,7 +31,7 @@ gulp.task('previews', async () => {
     const inMapFile = 'map.geo.json';
     const outMapFile = map + '.geo.json';
 
-    const inMapDir = path.join(folders.buildDir, map, prevs[map]);
+    const inMapDir = path.join(folders.buildDir, map, prevs[map] || '10km');
 
     const inMapPath = path.join(inMapDir, inMapFile);
     const outMapPath = path.join(folders.prevDir, outMapFile);
