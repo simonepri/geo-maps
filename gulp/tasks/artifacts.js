@@ -32,7 +32,7 @@ gulp.task('artifacts', async () => {
       // eslint-disable-next-line no-await-in-loop
       await fs.copy(inMapPath, outMapPath);
 
-      bar();
+      bar.tick();
     }
   }
 });
