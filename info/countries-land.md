@@ -1,10 +1,10 @@
 ## Map of countries' political land borders
 <p align="center">
-  <a alt="see countries-land on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-land.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-land-shape.png" width ="49%"/>
+  <a alt="see countries-land on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/countries-land.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-countries-land-shape.png" width ="49%"/>
   </a>
-  <a alt="see countries-land on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-land.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-land-hover.png" width ="49%"/>
+  <a alt="see countries-land on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/master/previews/countries-land.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-countries-land-hover.png" width ="49%"/>
   </a>
 </p>
 

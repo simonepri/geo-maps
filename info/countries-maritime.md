@@ -1,10 +1,10 @@
 ## Map of countries' political maritime borders
 <p align="center">
-  <a alt="see countries-maritime on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-maritime.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-maritime-shape.png" width ="49%"/>
+  <a alt="see countries-maritime on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/countries-maritime.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-countries-maritime-shape.png" width ="49%"/>
   </a>
-  <a alt="see countries-maritime on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-maritime.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-maritime-hover.png" width ="49%"/>
+  <a alt="see countries-maritime on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/master/previews/countries-maritime.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-countries-maritime-hover.png" width ="49%"/>
   </a>
 </p>
 

@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps.jpg" alt="geo-maps" /></a>
+  <a href="https://github.com/simonepri/geo-maps"><img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps.jpg" alt="geo-maps" /></a>
 </h1>
 <p align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome-geojson" /></a>
@@ -28,10 +28,10 @@ of **{{resolution}}**.
 
 <p align="center">
   <a alt="World Boundaries" href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/earth-rivers-{{resolution}}/map.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-rivers-shape.png" width ="49%"/>
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-rivers-shape.png" width ="49%"/>
   </a>
   <a alt="World Boundaries" href="http://geojson.io/#data=data:text/x-url,https://unpkg.com/@geo-maps/earth-rivers-{{resolution}}/map.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-rivers-hover.png" width ="49%"/>
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-rivers-hover.png" width ="49%"/>
   </a>
 </p>
 

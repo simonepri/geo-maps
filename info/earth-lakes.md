@@ -1,10 +1,10 @@
 ## Map of earth's lakes
 <p align="center">
-  <a alt="see earth-lakes on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lakes.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lakes-shape.png" width ="49%"/>
+  <a alt="see earth-lakes on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-lakes.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-lakes-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-lakes on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-lakes.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-lakes-hover.png" width ="49%"/>
+  <a alt="see earth-lakes on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-lakes.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-lakes-hover.png" width ="49%"/>
   </a>
 </p>
 

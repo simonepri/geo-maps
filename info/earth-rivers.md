@@ -1,10 +1,10 @@
 ## Map of earth's rivers
 <p align="center">
-  <a alt="see earth-rivers on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-rivers.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-rivers-shape.png" width ="49%"/>
+  <a alt="see earth-rivers on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-rivers.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-rivers-shape.png" width ="49%"/>
   </a>
-  <a alt="see earth-rivers on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/earth-rivers.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-earth-rivers-hover.png" width ="49%"/>
+  <a alt="see earth-rivers on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/master/previews/earth-rivers.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-rivers-hover.png" width ="49%"/>
   </a>
 </p>
 

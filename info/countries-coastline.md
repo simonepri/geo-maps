@@ -1,10 +1,10 @@
 ## Map of countries' political coastline borders
 <p align="center">
-  <a alt="see countries-coastline on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-coastline.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-coastline-shape.png" width ="49%"/>
+  <a alt="see countries-coastline on mapshaper" href="http://mapshaper.org/?files=https://cdn.rawgit.com/simonepri/geo-maps/master/previews/countries-coastline.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-countries-coastline-shape.png" width ="49%"/>
   </a>
-  <a alt="see countries-coastline on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/next/previews/countries-coastline.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/next/media/geo-maps-countries-coastline-hover.png" width ="49%"/>
+  <a alt="see countries-coastline on geojson.io" href="http://geojson.io/#data=data:text/x-url,https://cdn.rawgit.com/simonepri/geo-maps/master/previews/countries-coastline.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-countries-coastline-hover.png" width ="49%"/>
   </a>
 </p>
 
