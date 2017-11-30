@@ -3,10 +3,10 @@
 </h1>
 <p align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome-geojson" /></a>
-  <a href="https://github.com/simonepri/geo-maps#earth-waterbodiess"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
-  <a href="https://github.com/simonepri/geo-maps#earth-waterbodiess"><img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/earth-waterbodiess-{{resolution}}/map.geo.json" alt="map size" /></a>
-  <a href="https://www.npmjs.com/package/@geo-maps/earth-waterbodiess-{{resolution}}"><img src="https://img.shields.io/npm/dm/@geo-maps/earth-waterbodiess-{{resolution}}.svg" alt="npm downloads" /></a>
-  <a href="https://www.npmjs.com/package/@geo-maps/earth-waterbodiess-{{resolution}}"><img src="https://img.shields.io/npm/v/@geo-maps/earth-waterbodiess-{{resolution}}.svg" alt="npm version" /></a>
+  <a href="https://github.com/simonepri/geo-maps/blob/master/info/earth-waterbodies.md#downloads"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
+  <a href="https://github.com/simonepri/geo-maps/blob/master/info/earth-waterbodies.md#downloads"><img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/earth-waterbodies-{{resolution}}/map.geo.json" alt="map size" /></a>
+  <a href="https://www.npmjs.com/package/@geo-maps/earth-waterbodies-{{resolution}}"><img src="https://img.shields.io/npm/dm/@geo-maps/earth-waterbodies-{{resolution}}.svg" alt="npm downloads" /></a>
+  <a href="https://www.npmjs.com/package/@geo-maps/earth-waterbodies-{{resolution}}"><img src="https://img.shields.io/npm/v/@geo-maps/earth-waterbodies-{{resolution}}.svg" alt="npm version" /></a>
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/format-GeoJSON-e67e22.svg" alt="maps format" /></a>
   <a href="http://www.openstreetmap.org/"><img src="https://img.shields.io/badge/source-OSM-2ecc71.svg" alt="map source" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/simonepri/geo-maps.svg" alt="software license" /></a>
@@ -27,23 +27,23 @@ Click on the images below to see a live preview of the map with an absolute erro
 of **{{resolution}}**.  
 
 <p align="center">
-  <a alt="World Boundaries" href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/earth-waterbodiess-{{resolution}}/map.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-waterbodiess-shape.png" width ="49%"/>
+  <a alt="World Boundaries" href="http://mapshaper.org/?files=https://unpkg.com/@geo-maps/earth-waterbodies-{{resolution}}/map.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-waterbodies-shape.png" width ="49%"/>
   </a>
-  <a alt="World Boundaries" href="http://geojson.io/#data=data:text/x-url,https://unpkg.com/@geo-maps/earth-waterbodiess-{{resolution}}/map.geo.json">
-    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-waterbodiess-hover.png" width ="49%"/>
+  <a alt="World Boundaries" href="http://geojson.io/#data=data:text/x-url,https://unpkg.com/@geo-maps/earth-waterbodies-{{resolution}}/map.geo.json">
+    <img src="https://raw.githubusercontent.com/simonepri/geo-maps/master/media/geo-maps-earth-waterbodies-hover.png" width ="49%"/>
   </a>
 </p>
 
 ## Install
 ```bash
-$ npm install --save @geo-maps/earth-waterbodiess-{{resolution}}
+$ npm install --save @geo-maps/earth-waterbodies-{{resolution}}
 ```
 
 ## Usage
 ```javascript
 // Just require it and you are done!
-const geoWorldWaters = require('@geo-maps/earth-waterbodiess-{{resolution}}');
+const geoWorldWaters = require('@geo-maps/earth-waterbodies-{{resolution}}');
 ```
 
 ## Authors

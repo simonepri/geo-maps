@@ -3,8 +3,8 @@
 </h1>
 <p align="center">
   <a href="https://github.com/tmcw/awesome-geojson"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome-geojson" /></a>
-  <a href="https://github.com/simonepri/geo-maps#earth-rivers"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
-  <a href="https://github.com/simonepri/geo-maps#earth-rivers"><img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/earth-rivers-{{resolution}}/map.geo.json" alt="map size" /></a>
+  <a href="https://github.com/simonepri/geo-maps/blob/master/info/earth-rivers.md#downloads"><img src="https://img.shields.io/badge/resolution-{{resolution}}-f1c40f.svg" alt="map resolution" /></a>
+  <a href="https://github.com/simonepri/geo-maps/blob/master/info/earth-rivers.md#downloads"><img src="http://img.badgesize.io/https://unpkg.com/@geo-maps/earth-rivers-{{resolution}}/map.geo.json" alt="map size" /></a>
   <a href="https://www.npmjs.com/package/@geo-maps/earth-rivers-{{resolution}}"><img src="https://img.shields.io/npm/dm/@geo-maps/earth-rivers-{{resolution}}.svg" alt="npm downloads" /></a>
   <a href="https://www.npmjs.com/package/@geo-maps/earth-rivers-{{resolution}}"><img src="https://img.shields.io/npm/v/@geo-maps/earth-rivers-{{resolution}}.svg" alt="npm version" /></a>
   <a href="http://geojson.org/"><img src="https://img.shields.io/badge/format-GeoJSON-e67e22.svg" alt="maps format" /></a>
