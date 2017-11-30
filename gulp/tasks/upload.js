@@ -17,7 +17,7 @@ gulp.task('upload', () => {
   if (!GITHUB_TOKEN) {
     throw new Error('Environment variable GITHUB_TOKEN is required for GitHub releases.');
   }
-  gulp.src(path.join(folders.distDir, '*'))
+  return gulp.src(path.join(folders.distDir, '*'))
     .pipe(
       release({
         token: GITHUB_TOKEN,
