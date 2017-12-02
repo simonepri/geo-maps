@@ -55,7 +55,9 @@ If you need to convert maps in any of Shapefile, TopoJSON, CSV, SVG formats you 
 
 ## Showcase
 Do you use geo-maps in your application? Please [open a Pull Request](https://github.com/simonepri/geo-maps/pulls) to include it here.  
-We would love to have it in our list.
+We would love to have it in our list:
+
+* [country-iso](https://github.com/simonepri/country-iso): 🗺 Get ISO 3166-1 alpha-3 country code for geographic coordinates.
 
 ## Development
 PRs are **REALLY** welcome.  
