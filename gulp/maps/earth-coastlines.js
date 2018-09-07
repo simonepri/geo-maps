@@ -13,17 +13,16 @@ const utils = require('../utils');
  * Creates a valid GeoJSON file from the OSM lakes map in the tmp folder.
  */
 gulp.task('earth-coastlines-generate', async () => {
-  const landUrl = 'http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip';
-
+  const landUrl = 'http://data.openstreetmapdata.com/land-polygons-complete-3857.zip';
   const coastlinesPath = path.join(folders.mapsDir, 'earth-coastlines.geo.json');
-  const tmpCoastlinesDir = path.join(folders.tmpDir, 'earth-coeastlines');
+  const tmpCoastlinesDir = path.join(folders.tmpDir, 'earth-coastlines');
 
-  const shpLandPath = path.join(tmpCoastlinesDir, 'simplified_land_polygons.shp');
+  const shpLandPath = path.join(tmpCoastlinesDir, 'land_polygons.shp');
 
   const dwnOpts = {
     extract: true,
     strip: 1,
-    filter: file => file.path.indexOf('simplified_land_polygons') !== -1
+    filter: file => file.path.indexOf('land_polygons') !== -1
   };
   await download(landUrl, tmpCoastlinesDir, dwnOpts).on('response', utils.downloadProgress('earth-coastlines'));
 
