@@ -14,7 +14,7 @@ const utils = require('../utils');
  */
 gulp.task('earth-coastlines-generate', async () => {
   const landUrl = 'http://data.openstreetmapdata.com/land-polygons-complete-3857.zip';
-  const coastlinesPath = path.join(folders.mapsDir, 'earth-coastlines.geo.json');
+  const coastlinesPath = path.join(folders.mapsDir, 'earth-coastlines.shp');
   const tmpCoastlinesDir = path.join(folders.tmpDir, 'earth-coastlines');
 
   const shpLandPath = path.join(tmpCoastlinesDir, 'land_polygons.shp');
@@ -30,7 +30,7 @@ gulp.task('earth-coastlines-generate', async () => {
     '-filter-fields ' +
     '-proj +init=epsg:4326 ' +
     '-dissolve ' +
-    '-o precision=0.000001 format=geojson ' + coastlinesPath + ' ' +
+    '-o format=shapefile ' + coastlinesPath + ' ' +
     '-verbose';
   await utils.mapshaperCmd(cmd);
 

@@ -15,7 +15,7 @@ const utils = require('../utils');
 gulp.task('earth-rivers-generate', async () => {
   const riversUrl = 'http://data.openstreetmapdata.com/river-polygons-reduced-3857.zip';
 
-  const riversPath = path.join(folders.mapsDir, 'earth-rivers.geo.json');
+  const riversPath = path.join(folders.mapsDir, 'earth-rivers.shp');
   const tmpRiversDir = path.join(folders.tmpDir, 'earth-rivers');
 
   const shpRiversPath = path.join(tmpRiversDir, 'river_reduced_z6.shp');
@@ -31,7 +31,7 @@ gulp.task('earth-rivers-generate', async () => {
     '-filter-fields ' +
     '-proj +init=epsg:4326 ' +
     '-dissolve ' +
-    '-o precision=0.000001 format=geojson ' + riversPath + ' ' +
+    '-o format=shapefile ' + riversPath + ' ' +
     '-verbose';
   await utils.mapshaperCmd(cmd);
 
