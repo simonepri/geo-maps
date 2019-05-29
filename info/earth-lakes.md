@@ -46,7 +46,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-1m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-1m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-1m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -74,7 +74,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-2m5.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-2m5.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-2m5.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -102,7 +102,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-5m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-5m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-5m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -130,7 +130,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-10m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-10m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-10m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -158,7 +158,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-25m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-25m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-25m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -186,7 +186,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-50m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-50m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-50m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -214,7 +214,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-100m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-100m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-100m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -242,7 +242,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-250m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-250m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-250m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -270,7 +270,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-500m.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-500m.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-500m.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -298,7 +298,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-1km.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-1km.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-1km.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -326,7 +326,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-2km5.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-2km5.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-2km5.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -354,7 +354,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-5km.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-5km.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-5km.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
@@ -382,7 +382,7 @@ Click on badges to interact with them.
       </a>
     </td>
     <td>
-      <a href="https://github.com/simonepri/geo-maps/releases/download/v0.6.0/earth-lakes-10km.geo.json">
+      <a href="https://github.com/simonepri/geo-maps/releases/latest/download/earth-lakes-10km.geo.json">
         <img src="https://img.shields.io/github/downloads/simonepri/geo-maps/latest/earth-lakes-10km.geo.json.svg" alt="github downloads"/>
       </a>
     </td>
