@@ -15,10 +15,10 @@ const utils = require('../utils');
 gulp.task('earth-lakes-generate', async () => {
   const lakesUrl = 'http://data.openstreetmapdata.com/lakes-polygons-reduced-3857.zip';
 
-  const lakesPath = path.join(folders.mapsDir, 'earth-lakes.geo.json');
+  const lakesPath = path.join(folders.mapsDir, 'earth-lakes.shp');
   const tmpLakesDir = path.join(folders.tmpDir, 'earth-lakes');
 
-  const shpLakesPath = path.join(tmpLakesDir, 'lakes_reduced_z5.shp');
+  const shpLakesPath = path.join(tmpLakesDir, 'lakes_reduced_z6.shp');
 
   const dwnOpts = {
     extract: true,
@@ -31,7 +31,7 @@ gulp.task('earth-lakes-generate', async () => {
     '-filter-fields ' +
     '-proj +init=epsg:4326 ' +
     '-dissolve ' +
-    '-o precision=0.000001 format=geojson ' + lakesPath + ' ' +
+    '-o format=shapefile ' + lakesPath + ' ' +
     '-verbose';
   await utils.mapshaperCmd(cmd);
 

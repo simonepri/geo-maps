@@ -12,13 +12,13 @@ const utils = require('../utils');
  * the countries coastline boundaries in a single file.
  */
 gulp.task('countries-coastline-generate', async () => {
-  const coastlinePath = path.join(folders.mapsDir, 'countries-coastline.geo.json');
-  const maritimePath = path.join(folders.mapsDir, 'countries-maritime.geo.json');
-  const coastlinesPath = path.join(folders.mapsDir, 'earth-coastlines.geo.json');
+  const coastlinePath = path.join(folders.mapsDir, 'countries-coastline.shp');
+  const maritimePath = path.join(folders.mapsDir, 'countries-maritime.shp');
+  const coastlinesPath = path.join(folders.mapsDir, 'earth-coastlines.shp');
 
   const cmd = '-i ' + maritimePath + ' ' +
     '-clip ' + coastlinesPath + ' ' +
-    '-o precision=0.000001 format=geojson ' + coastlinePath + ' ' +
+    '-o format=shapefile ' + coastlinePath + ' ' +
     '-verbose';
   await utils.mapshaperCmd(cmd);
 });

@@ -11,15 +11,15 @@ const utils = require('../utils');
  * Creates a valid GeoJSON file from the OSM lakes map in the tmp folder.
  */
 gulp.task('earth-lands-generate', async () => {
-  const landsPath = path.join(folders.mapsDir, 'earth-lands.geo.json');
-  const coastlinesPath = path.join(folders.mapsDir, 'earth-coastlines.geo.json');
-  const lakesPath = path.join(folders.mapsDir, 'earth-lakes.geo.json');
-  const riversPath = path.join(folders.mapsDir, 'earth-rivers.geo.json');
+  const landsPath = path.join(folders.mapsDir, 'earth-lands.shp');
+  const coastlinesPath = path.join(folders.mapsDir, 'earth-coastlines.shp');
+  const lakesPath = path.join(folders.mapsDir, 'earth-lakes.shp');
+  const riversPath = path.join(folders.mapsDir, 'earth-rivers.shp');
 
   const cmd = '-i ' + coastlinesPath + ' ' +
     '-erase ' + lakesPath + ' target=1 ' +
     '-erase ' + riversPath + ' target=1 ' +
-    '-o precision=0.000001 format=geojson ' + landsPath + ' ' +
+    '-o format=shapefile ' + landsPath + ' ' +
     '-verbose';
   await utils.mapshaperCmd(cmd);
 });

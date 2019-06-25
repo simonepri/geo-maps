@@ -13,7 +13,7 @@ const utils = require('../utils');
  * the countries maritime boundaries in a single file.
  */
 gulp.task('countries-maritime-generate', async () => {
-  const maritimePath = path.join(folders.mapsDir, 'countries-maritime.geo.json');
+  const maritimePath = path.join(folders.mapsDir, 'countries-maritime.shp');
   const mapPath = path.join(folders.tmpDir, 'countries-map.json');
   const tmpMaritimePath = path.join(folders.tmpDir, 'countries-maritime.geo.json');
 
@@ -31,7 +31,7 @@ gulp.task('countries-maritime-generate', async () => {
   await fs.outputJson(tmpMaritimePath, maritime);
 
   const cmd = '-i ' + tmpMaritimePath + ' ' +
-    '-o precision=0.000001 format=geojson ' + maritimePath + ' ' +
-    '-verbose';
+  '-o format=shapefile ' + maritimePath + ' ' +
+  '-verbose';
   await utils.mapshaperCmd(cmd);
 });
